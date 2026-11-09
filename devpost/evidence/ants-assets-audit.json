@@ -1,0 +1,648 @@
+{
+  "scan": "ds007036_sub-P0006_ses-01",
+  "template": "MNI152NLin2009cAsym",
+  "seed": 20261104,
+  "threads": 1,
+  "scan_count": 7,
+  "scans": [
+    {
+      "scan": "ds007036_sub-P0001_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0001_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 6.669004961533456,
+        "mni": 2.484
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -100.97289276123047,
+          "max": 139.61924743652344
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -16.82891273498535,
+          "max": 4.175097942352295
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.19286425411701202,
+          "max": 3.65912127494812
+        }
+      },
+      "registration_seconds": 196.80169733299408,
+      "total_seconds": 223.30415054201148
+    },
+    {
+      "scan": "ds007036_sub-P0002_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0002_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 0.04504156841916425,
+        "mni": 0.02
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -131.9071502685547,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -86.69041442871094,
+          "max": 126.14385223388672
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -16.83330726623535,
+          "max": 10.671178817749023
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.07827164232730865,
+          "max": 2.4910061359405518
+        }
+      },
+      "registration_seconds": 218.04699279204942,
+      "total_seconds": 243.9662338750204
+    },
+    {
+      "scan": "ds007036_sub-P0006_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 24.06786456999029,
+        "mni": 7.517
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -99.37969970703125,
+          "max": 128.93441772460938
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -21.669204711914062,
+          "max": 6.962625026702881
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.08848512917757034,
+          "max": 6.365103244781494
+        }
+      },
+      "registration_seconds": 227.96815787500236,
+      "total_seconds": 255.2624314170098
+    },
+    {
+      "scan": "ds007036_sub-P0007_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0007_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 5.641745600751673,
+        "mni": 2.529
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -89.0729751586914,
+          "max": 136.80413818359375
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -15.77895736694336,
+          "max": 4.90128755569458
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.17803262174129486,
+          "max": 3.4407541751861572
+        }
+      },
+      "registration_seconds": 219.02181050006766,
+      "total_seconds": 247.69166433403734
+    },
+    {
+      "scan": "ds007036_sub-P0009_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0009_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 9.597388261794224,
+        "mni": 3.703
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -88.7291030883789,
+          "max": 140.4333038330078
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -17.293725967407227,
+          "max": 3.696195363998413
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.22240372002124786,
+          "max": 3.6281325817108154
+        }
+      },
+      "registration_seconds": 229.34621270897333,
+      "total_seconds": 258.8265055830125
+    },
+    {
+      "scan": "ds007036_sub-P0013_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0013_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 25.076289232572158,
+        "mni": 10.13
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            192,
+            256,
+            189,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -98.06759643554688,
+          "max": 142.5353546142578
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "finite": true,
+          "min": -16.24250030517578,
+          "max": 4.776075839996338
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.17325904965400696,
+          "max": 4.681905269622803
+        }
+      },
+      "registration_seconds": 264.6428059999598,
+      "total_seconds": 331.57280041696504
+    },
+    {
+      "scan": "ds007561_sub-03_ses-01",
+      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007561_sub-03_ses-01_T1w.nii.gz",
+      "raw_crop_intensities_exact": true,
+      "mask_ml": {
+        "subject": 69.217,
+        "mni": 18.764
+      },
+      "fields": {
+        "mni_coords_in_t1": {
+          "shape": [
+            256,
+            256,
+            170,
+            3
+          ],
+          "finite": true,
+          "min": -132,
+          "max": 114
+        },
+        "subject_coords_in_mni": {
+          "shape": [
+            193,
+            229,
+            193,
+            3
+          ],
+          "finite": true,
+          "min": -111.093994140625,
+          "max": 129.6396942138672
+        },
+        "native-to-mni-ratio-sigma2": {
+          "shape": [
+            256,
+            256,
+            170
+          ],
+          "finite": true,
+          "min": -14.281414985656738,
+          "max": 3.7402150630950928
+        },
+        "t1_to_mni_jac": {
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "finite": true,
+          "min": 0.2155846506357193,
+          "max": 8.242783546447754
+        }
+      },
+      "registration_seconds": 319.13481337507255,
+      "total_seconds": 362.4122927499702
+    }
+  ],
+  "ventricle_ml": {
+    "subject": 24.1,
+    "mni": 7.5
+  },
+  "ventricle_ml_exact": {
+    "subject": 24.06786456999029,
+    "mni": 7.517
+  },
+  "key_slices": {
+    "subject": {
+      "world_z_mm": -16,
+      "area_mm2": 1188,
+      "all_candidate_areas_independently_recomputed": true,
+      "grey_anatomy_rgb_equal": true,
+      "letters": "R on image left; L on image right (visually reviewed in native Preview)"
+    },
+    "common": {
+      "world_z_mm": 19,
+      "area_mm2": 728,
+      "all_candidate_areas_independently_recomputed": true,
+      "grey_anatomy_rgb_equal": true,
+      "letters": "R on image left; L on image right (visually reviewed in native Preview)"
+    }
+  },
+  "meshes": {
+    "patient-warp.glb": {
+      "accessors_finite": true,
+      "vertices": 44592,
+      "triangles": 89999,
+      "morph_target": [
+        "mni"
+      ],
+      "geometry_identical_to_neutral": true
+    },
+    "patient.glb": {
+      "accessors_finite": true,
+      "vertices": 44592,
+      "triangles": 89999,
+      "morph_target": [
+        "mni"
+      ],
+      "neutral_no_atlas_rgba": [
+        191,
+        191,
+        191,
+        255
+      ]
+    },
+    "planes.glb": {
+      "accessors_finite": true,
+      "vertices": 56,
+      "triangles": 70,
+      "morph_target": [
+        "mni"
+      ]
+    },
+    "template-warp.glb": {
+      "accessors_finite": true,
+      "vertices": 44874,
+      "triangles": 90000,
+      "morph_target": [],
+      "geometry_identical_to_neutral": true
+    },
+    "template.glb": {
+      "accessors_finite": true,
+      "vertices": 44874,
+      "triangles": 90000,
+      "morph_target": [],
+      "neutral_no_atlas_rgba": [
+        191,
+        191,
+        191,
+        255
+      ]
+    },
+    "ventricles.glb": {
+      "accessors_finite": true,
+      "vertices": 11966,
+      "triangles": 23932,
+      "morph_target": [
+        "mni"
+      ]
+    }
+  },
+  "medical_asset_payload_count": 48,
+  "medical_asset_sha256": {
+    "patient-warp.glb": "e186a4a007129a2914d1eee4b232d8a367d5e8291a283125ca8cf53378ba18af",
+    "patient.glb": "82a0c6483fa6e98f22bf676b6d3cc88f0117f091b3b79b9a2d8d4a0e03c932e3",
+    "planes.glb": "e8a543d5dde7cc73364fe1b0a1895a379646a1fd2287ede1d6f0558a40589836",
+    "region.json": "661a26cb012d73311b321a5cb701880214ecfd09f33d60764d64c2af05b49aa0",
+    "slices/common-0.png": "29670898e7132f5bbbc1841ab813f791e1232113ba2fd00866a404d78a6a8382",
+    "slices/common-1.png": "71066bef704e9101b27b17755cf12ca16f34c2651a089fcc1073a19e250518b7",
+    "slices/common-2.png": "b3a850cba9837109a630c7377554d8c5f392ab3ea4809c934658d7fe00675030",
+    "slices/common-3.png": "a2cba7819e374092136213ada9187748514b29d3721a218b5718e704ac7bb82a",
+    "slices/common-4.png": "14c57a8ad69c0c3a7f1c5e3f2b7f96cb49274c90ac12163f516467e28e18b443",
+    "slices/common-5.png": "2ee11a118a72409ca3714bef7fb207f723f28b7f9e2e1c6eb78503fde3366fe8",
+    "slices/common-6.png": "7f0c0b7aca83e0b458b7e9ab1c0754897dc4d8ff0606b4c0e3ca2f17f6591400",
+    "slices/common-key-0.png": "bd8840d4333a779ce538aad08fd2fe825c9705a8db4dddd6bf84960efcb4d53b",
+    "slices/common-key-outline-0.png": "42d6aaf0494f9864ddb000a4db21c2b28ff7ccd604cec7bf7e2ea486e6356bfa",
+    "slices/common-key-warp-0.png": "4e3b605f54f306ce44e17c6216e3ba37bb55da2c22b7717b0d7dc93c9e4c16e3",
+    "slices/common-outline-0.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/common-outline-1.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/common-outline-2.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/common-outline-3.png": "362afbe5428084a64b5d4ef7d501a60c4281b0c699cd92ddc6ae382208d52540",
+    "slices/common-outline-4.png": "da02ba2fffedb5060131f505592b9de0719eab6ce3ae107f94286cd059730a6f",
+    "slices/common-outline-5.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/common-outline-6.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/common-warp-0.png": "d1cddb7f6d20171561cf48486c7554d4c7de11abf58a36403085bf6d64fa4e2e",
+    "slices/common-warp-1.png": "a8a587448b6579c37006589754cd037249ea4617643afe56a6e756da9a976858",
+    "slices/common-warp-2.png": "371339abbd4b9cfff89caf1bb70b3bf62f2abbab614832f9f5b1731320531293",
+    "slices/common-warp-3.png": "0e08f7b90ca3ad88c0baef97dfe0aa8dbe8e280c864dd0de55a6a4a7fd9590b3",
+    "slices/common-warp-4.png": "9d8b3167f5bda208080d7d568e603309dea55c868e83ee83b1226a9f13153b26",
+    "slices/common-warp-5.png": "9d704e0b132532e285573b1472237f26d163e9629e055ee53287520897bd2c5e",
+    "slices/common-warp-6.png": "ea370c008382d3a6e4a056425c613e30a94a34a0760ebdda8b422d3682090f32",
+    "slices/subject-0.png": "3dd04364605cf35ef8fdf11cce15bc470951998a1d228b708337c676286cf6ee",
+    "slices/subject-1.png": "4325860f9adbbfd66651ead67daf80a68c069ffa0d80711cfdf625e2d47c14c7",
+    "slices/subject-2.png": "37214c2dd6e1dc01ddab4149b48f28287813f4f66f521d42ff3f058b7341f944",
+    "slices/subject-3.png": "bf5e2af0fcaf156a96c79c9200536e3788fb0fa91ca8582528eff6eee1adb176",
+    "slices/subject-4.png": "54931c42e327f58ee1f0d740176c8d52afe1e6cbe69bcdec4c9e75648132fede",
+    "slices/subject-5.png": "914990d86fede07fcc2da3e69264df7fa029ba1226c0c1066d7f6555d10e59c6",
+    "slices/subject-6.png": "4678f790c77178bcf4be9bd97d1e4077854846769ecd77229dd4d222276cf2d2",
+    "slices/subject-key-0.png": "1c8107dc993578f1783b88e61827c6465d05511fd635e68dc7975ace9635a20e",
+    "slices/subject-key-outline-0.png": "52d586cdee4ff99937983768d755fd127f79af3b037f2b32770682dba045e955",
+    "slices/subject-outline-0.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/subject-outline-1.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "slices/subject-outline-2.png": "5d5d3f224b14554cc465f7131b3a893ff4bcabac917f8a416327091d8ef7509a",
+    "slices/subject-outline-3.png": "df00dbc9e82690e6dd3f8d61ec9820f8e0bc252f55f057a76c32484841892ab9",
+    "slices/subject-outline-4.png": "37980e6521c9aeb73c4ea16189a0b9a768373ed9b05fbf34de30c26ad6d234e7",
+    "slices/subject-outline-5.png": "6933ddcc48139d4a989cba9043715dc6e6f9954ea8ad7c9150eacd477f135cf3",
+    "slices/subject-outline-6.png": "528d9c4cd5001c692478763ef72fcc40f356eadb2e1058b299c5df5b1062dd24",
+    "template-warp.glb": "f1633f570bbc06c72f48adc5ace2e83b7b7871f830470e004d7934ce75f6d46e",
+    "template.glb": "8f8803b872c8d271f2662063e0dfc61d732f9fa424016d439fc53c15dd83a403",
+    "ventricles.glb": "0bbf7be4da9ddf6ef3c584875910826664e1023dc2782a62678defc69e13030b",
+    "warp-legend.png": "16672e6ab9f7d1ec8f1bbc826dd076bccde5861bb3f00d6d904843597bcd57eb"
+  },
+  "subject_j_overlay_count": 0,
+  "full_affine_syn_mni_pullback_j_mean_roi": 3.134605646133423,
+  "jacobian_units": "dV_subject / dV_MNI; composed affine+SyN geometric pullback",
+  "volume_curve": {
+    "source": "ventricles.glb",
+    "method": "closed-mesh signed tetrahedra; cubic fit; coefficients ascending in w",
+    "coefficients_ml": [
+      24.1,
+      -19.82548605590251,
+      2.8004921264202642,
+      0.4249939294822441
+    ],
+    "mesh_coefficients_ml": [
+      23.98404451676236,
+      -20.035801283594004,
+      2.8004921264202642,
+      0.4249939294822441
+    ],
+    "mesh_endpoint_ml": {
+      "subject": 23.98404451676237,
+      "mni": 7.173729289070853
+    },
+    "endpoint_relative_error": {
+      "subject": 0.004811430839735675,
+      "mni": 0.04350276145721954
+    },
+    "endpoint_tolerance": 0.03,
+    "approximate": true,
+    "endpoints_pinned": true,
+    "max_fit_residual_ml": 2.4868995751603507e-14,
+    "samples": [
+      {
+        "weight": 0,
+        "mesh_ml": 23.98404451676237
+      },
+      {
+        "weight": 0.0625,
+        "mesh_ml": 22.742850117190155
+      },
+      {
+        "weight": 0.125,
+        "mesh_ml": 21.524157112056965
+      },
+      {
+        "weight": 0.1875,
+        "mesh_ml": 20.328588051064205
+      },
+      {
+        "weight": 0.25,
+        "mesh_ml": 19.156765483913297
+      },
+      {
+        "weight": 0.3125,
+        "mesh_ml": 18.009311960305595
+      },
+      {
+        "weight": 0.375,
+        "mesh_ml": 16.886850029942508
+      },
+      {
+        "weight": 0.4375,
+        "mesh_ml": 15.790002242525418
+      },
+      {
+        "weight": 0.5,
+        "mesh_ml": 14.719391147755704
+      },
+      {
+        "weight": 0.5625,
+        "mesh_ml": 13.675639295334783
+      },
+      {
+        "weight": 0.625,
+        "mesh_ml": 12.659369234964023
+      },
+      {
+        "weight": 0.6875,
+        "mesh_ml": 11.671203516344827
+      },
+      {
+        "weight": 0.75,
+        "mesh_ml": 10.71176468917857
+      },
+      {
+        "weight": 0.8125,
+        "mesh_ml": 9.781675303166665
+      },
+      {
+        "weight": 0.875,
+        "mesh_ml": 8.88155790801048
+      },
+      {
+        "weight": 0.9375,
+        "mesh_ml": 8.012035053411406
+      },
+      {
+        "weight": 1,
+        "mesh_ml": 7.173729289070853
+      }
+    ]
+  },
+  "mesh_caveat": "Original 3% QA threshold is unchanged. MNI mesh differs from the rounded mask endpoint by 4.350276%; existing approximate/endpoints_pinned metadata explicitly records this. No geometry rescaling or tolerance widening. Offline curve is not displayed/evaluated by the Lens.",
+  "licences_sha256": {
+    "lens/third-party-licenses/antspyx-apache-2.0.txt": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "lens/third-party-licenses/icbm152-2009c.txt": "46e280fe1a24c6f37feef2445ed288435e0ad063504a06030b206b12fdd2629d",
+    "lens/third-party-licenses/templateflow-apache-2.0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "warnings": "NumPy/Apple Accelerate matmul floating warnings and PyVista future warnings remain in the producer logs; all saved fields and every GLB accessor were checked finite. No warning filter was added.",
+  "versions": {
+    "antspyx": "0.6.3",
+    "templateflow": "25.1.2",
+    "numpy": "2.2.6",
+    "scipy": "1.14.1",
+    "nibabel": "5.4.2",
+    "pyvista": "0.49.2",
+    "scikit-image": "0.26.0",
+    "Pillow": "13.0.0"
+  },
+  "obsolete_slice_cache_removed": true
+}

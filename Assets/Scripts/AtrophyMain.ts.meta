@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/97108bc2-d496-493b-8df0-eb1e050b12ab>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f6f9440e-7ee1-48af-b63e-3899ba742b7f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f6f9440e-7ee1-48af-b63e-3899ba742b7f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4de37f65-2bcb-4938-b118-b8d3febf3a14
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4de37f65-2bcb-4938-b118-b8d3febf3a14>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f56c4c85-d3b1-40d7-b470-29e7d384dada
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    brainHandle: false
+    commonAnchor: false
+    followSeconds: false
+    morphBrain: false
+    subjectAnchor: false
+    travelPath: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - brainHandle: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      morphBrain: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      subjectAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      commonAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      travelPath: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      followSeconds: 0.080000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Where Does the Atrophy Go? – interaction</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 brainHandle {"hint":"Pinch target on the carried brain (collider + Interactable); Main moves it with the morph"}'
+    - '// @input AssignableType_2 morphBrain {"hint":"Controller on the translating/morphing brain"}'
+    - '// @input SceneObject subjectAnchor {"hint":"Authored subject-space brain root / translation endpoint"}'
+    - '// @input SceneObject commonAnchor {"hint":"Authored common-space brain root / translation endpoint"}'
+    - '// @input Component.RenderMeshVisual travelPath {"hint":"Authored dashed guide on the table; its mesh is built from the shared travel arc once at startup"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float followSeconds = 0.08 {"hint":"Seconds to follow a drag smoothly; the endpoint settles exactly", "widget":"slider", "min":0.02, "max":0.3, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'

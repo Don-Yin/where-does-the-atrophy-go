@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/120d4ecb-a8ea-4bef-9300-4375521087b6>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> 2a7b0fba-d6bd-4a59-9573-c6fd26a089fb
+    88ab437fd121cc69: !<reference> fbf841af-8c54-4231-80e9-9b7b93e25a33
+    8c2c6f3cf8d060fd: !<reference> 453b5b32-66c8-44c4-973c-70cace1357fc
+    Meshes/patient: !<reference> 9b4bb5bb-770c-4bb0-baa5-22c1b1efc53d
+    Scene: !<reference> 1b4f7e50-3644-42f7-80ec-0751d7bafbac
+    b59f8a9f9a65a2f6: !<reference> 2a5fd920-24ff-419a-aaf6-38d957b9da9f
+    f40046b8543d1f4c: !<reference> 9e92f927-9c75-447d-b544-ae94ad6e36bd
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 1b4f7e50-3644-42f7-80ec-0751d7bafbac
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> c427a51e-aa1b-466c-940c-4d68c57db0ad
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/2a5fd920-24ff-419a-5509-c726a8462560>
+  PrefabRemaps:
+    []
+  Name: patient
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 9b4bb5bb-770c-4bb0-baa5-22c1b1efc53d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    mni: 0.000000
+- !<SceneObject/2a7b0fba-d6bd-4a59-6a8c-3902d95f7604>
+  PrefabRemaps:
+    []
+  Name: patient
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fbf841af-8c54-4231-7f16-64846c1da5cc
+  Components:
+    []
+- !<SceneObject/453b5b32-66c8-44c4-68c3-8f3531eca803>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9e92f927-9c75-447d-4abb-516b5291c942
+  Components:
+    []
+- !<SceneObject/9e92f927-9c75-447d-4abb-516b5291c942>
+  PrefabRemaps:
+    []
+  Name: patient
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a5fd920-24ff-419a-5509-c726a8462560
+- !<ObjectPrefabAssetData/c427a51e-aa1b-466c-940c-4d68c57db0ad>
+  Prototype: !<ObjectOwner/83cb8e61-0e40-485e-9179-7b43899b7c96>
+    PackagePath: ""
+    objects:
+      - !<own> 2a7b0fba-d6bd-4a59-6a8c-3902d95f7604
+- !<SceneObject/fbf841af-8c54-4231-7f16-64846c1da5cc>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 453b5b32-66c8-44c4-68c3-8f3531eca803
+  Components:
+    []

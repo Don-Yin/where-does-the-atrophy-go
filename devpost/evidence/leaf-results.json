@@ -1,0 +1,121 @@
+{
+  "unique_passed": 13,
+  "results": [
+    {
+      "id": "atrophy-01-startup",
+      "criterion": "startup",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-01-startup-startup-9445426.log",
+      "offset": 9445426,
+      "bytes": 8387
+    },
+    {
+      "id": "atrophy-02-endpoints",
+      "criterion": "endpoints",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-02-endpoints-endpoints-9487521.log",
+      "offset": 9487521,
+      "bytes": 8109
+    },
+    {
+      "id": "atrophy-03-smooth-morph",
+      "criterion": "morph",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-03-smooth-morph-morph-9524665.log",
+      "offset": 9524665,
+      "bytes": 9378
+    },
+    {
+      "id": "atrophy-04-billboard-slices",
+      "criterion": "slices",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-04-billboard-slices-slices-9563960.log",
+      "offset": 9563960,
+      "bytes": 11393
+    },
+    {
+      "id": "atrophy-05-readability",
+      "criterion": "readability",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-05-readability-readability-9605270.log",
+      "offset": 9605270,
+      "bytes": 7235
+    },
+    {
+      "id": "atrophy-06-ik-far-field",
+      "criterion": "far-field",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-06-ik-far-field-far-field-9642422.log",
+      "offset": 9642422,
+      "bytes": 9453
+    },
+    {
+      "id": "atrophy-07-demo-sweep",
+      "criterion": "demo-sweep",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-07-demo-sweep-demo-sweep-9681792.log",
+      "offset": 9681792,
+      "bytes": 9125
+    },
+    {
+      "id": "atrophy-08-clinicians",
+      "criterion": "clinicians",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-08-clinicians-clinicians-9720834.log",
+      "offset": 9720834,
+      "bytes": 14549
+    },
+    {
+      "id": "atrophy-10-warp-view",
+      "criterion": "warp",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-10-warp-view-warp-9765300.log",
+      "offset": 9765300,
+      "bytes": 10526
+    },
+    {
+      "id": "atrophy-11-placement",
+      "criterion": "placement",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-11-placement-placement-9951467.log",
+      "offset": 9951467,
+      "bytes": 7357
+    },
+    {
+      "id": "atrophy-12-slice-focus",
+      "criterion": "slice-focus",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-12-slice-focus-slice-focus-9988741.log",
+      "offset": 9988741,
+      "bytes": 9611
+    },
+    {
+      "id": "atrophy-13-inspect-copy",
+      "criterion": "inspect",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-13-inspect-copy-inspect-10028269.log",
+      "offset": 10028269,
+      "bytes": 11044
+    },
+    {
+      "id": "atrophy-14-projection-clearance",
+      "criterion": "projection",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-14-projection-clearance-projection-10069230.log",
+      "offset": 10069230,
+      "bytes": 36353,
+      "eye": "old"
+    },
+    {
+      "id": "atrophy-14-projection-clearance",
+      "criterion": "projection",
+      "passed": true,
+      "native_log": "leaf/native-atrophy-14-projection-clearance-projection-10135500.log",
+      "offset": 10135500,
+      "bytes": 36373,
+      "eye": "plate"
+    }
+  ],
+  "source_collection": "inspect-atomic-interact-ready",
+  "execution_target": "Lens Studio Preview 1; not Spectacles device"
+}

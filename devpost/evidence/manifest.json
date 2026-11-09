@@ -1,0 +1,262 @@
+{
+  "prepared_at": "2026-11-09T09:14:49.299Z",
+  "scope": "Current medical-asset reproducibility and retained Preview test evidence only",
+  "preview_collection": "inspect-atomic-interact-ready",
+  "preview_reexecuted_for_repository_preparation": false,
+  "device_deployment": false,
+  "source_snapshot_note": "Hashes describe source files at packaging time; they do not claim a new Lens Studio compile.",
+  "files": [
+    {
+      "path": "ants-assets-audit.json",
+      "bytes": 19684,
+      "sha256": "8b7b2bb958299fc11cef7ea31add75160b4e0d9dd3091911b7000195ca5097fb"
+    },
+    {
+      "path": "leaf/native-atrophy-01-startup-startup-9445426.log",
+      "bytes": 8387,
+      "sha256": "c04ab2b91647b428282a993f0b5de51c046d07c5cf26e026395bf55ba34b2a43"
+    },
+    {
+      "path": "leaf/native-atrophy-02-endpoints-endpoints-9487521.log",
+      "bytes": 8109,
+      "sha256": "be780ca67fad338460ba1fb79dbeb25da451c58c01a29d11bcea8b665a655da4"
+    },
+    {
+      "path": "leaf/native-atrophy-03-smooth-morph-morph-9524665.log",
+      "bytes": 9378,
+      "sha256": "beac676b576a17c2ae26f1261bdb3e57c522bc93f443acbebc5180ffadb473f6"
+    },
+    {
+      "path": "leaf/native-atrophy-04-billboard-slices-slices-9563960.log",
+      "bytes": 11393,
+      "sha256": "266281b033308d257cb3b6c221227d2beab19267c880afdf5b36f85d7e27037d"
+    },
+    {
+      "path": "leaf/native-atrophy-05-readability-readability-9605270.log",
+      "bytes": 7235,
+      "sha256": "56eb24a1af62745483e1e1966dedfe1f6eccf33c1266588abf766ba87f0d04d3"
+    },
+    {
+      "path": "leaf/native-atrophy-06-ik-far-field-far-field-9642422.log",
+      "bytes": 9453,
+      "sha256": "7069565320b2a3487649b68270a552b53e2fcca6270ab835cd1eaa5fbf4e9efe"
+    },
+    {
+      "path": "leaf/native-atrophy-07-demo-sweep-demo-sweep-9681792.log",
+      "bytes": 9125,
+      "sha256": "fa07f9bdae6f3694ef92d9ab95320f75b650bb6f55c102105de9ef8dc79f9b58"
+    },
+    {
+      "path": "leaf/native-atrophy-08-clinicians-clinicians-9720834.log",
+      "bytes": 14549,
+      "sha256": "e949e6859f7338ac01c57293a72700f59c05f50bf2957f2209dc8fb66cfa33dc"
+    },
+    {
+      "path": "leaf/native-atrophy-10-warp-view-warp-9765300.log",
+      "bytes": 10526,
+      "sha256": "f014f23acbe780d3a47480f27e65c283770267ab2ccf661f10c011ff35aba5d8"
+    },
+    {
+      "path": "leaf/native-atrophy-11-placement-placement-9951467.log",
+      "bytes": 7357,
+      "sha256": "d3d7954c048e09b584f1bd19062bb8bc79695b18765adb830ea8b08ba3603757"
+    },
+    {
+      "path": "leaf/native-atrophy-12-slice-focus-slice-focus-9988741.log",
+      "bytes": 9611,
+      "sha256": "ba9230f9724f3b321ab9bde56fb96f7155b9204ceee96c5b974e34a997e324e6"
+    },
+    {
+      "path": "leaf/native-atrophy-13-inspect-copy-inspect-10028269.log",
+      "bytes": 11044,
+      "sha256": "1efab64b3f0f45c9d497dd78bac5be99c8c76285651b65ffeebbfb5c3eae28de"
+    },
+    {
+      "path": "leaf/native-atrophy-14-projection-clearance-projection-10069230.log",
+      "bytes": 36353,
+      "sha256": "91293b7f87c234ceaa823d2d43543a101f778e48faa7d8fc6f77978471223e83"
+    },
+    {
+      "path": "leaf/native-atrophy-14-projection-clearance-projection-10135500.log",
+      "bytes": 36373,
+      "sha256": "93da3b746cfc4ac81d98ccae3948d6ec4b78b79ca04a7f21313955cf135933d7"
+    },
+    {
+      "path": "leaf-results.json",
+      "bytes": 3457,
+      "sha256": "60e17c6d2d6586749f5b4f13221c8d39662c11f7872dc90c8789dc42b3b62bbb"
+    },
+    {
+      "path": "lens-recompile.json",
+      "bytes": 148,
+      "sha256": "72026ad93582120eb36d18012033094945ef3bb540b544f647122ae319ff9103"
+    },
+    {
+      "path": "lens-runtime-refresh.json",
+      "bytes": 3780,
+      "sha256": "33341a0e8a23d3d90964e0060ddae4dd62da60952ad70e2bfeb03f5e278d914c"
+    },
+    {
+      "path": "p0006-reproducibility.json",
+      "bytes": 12328,
+      "sha256": "80f946a99b8db9047c75095226ebb615eea6af51f8c40225d5b5bf8bb9d64f2a"
+    },
+    {
+      "path": "pipeline-pyright.log",
+      "bytes": 37,
+      "sha256": "6d88a1b220adb7a3d62092b6e38431f0b3fe8babe9864fab90e5849766260332"
+    },
+    {
+      "path": "raw-download.log",
+      "bytes": 179,
+      "sha256": "b071c4e2e3784a37da82b632451ab10e5c2a200c2b8fb52a9468065d03aff63f"
+    },
+    {
+      "path": "raw-rebuild-audit.json",
+      "bytes": 2122,
+      "sha256": "7aad5b6193b481bd95d10d0404971103d22d3905cc8549239da2278dd47ea944"
+    },
+    {
+      "path": "raw-rebuild-verification.json",
+      "bytes": 595,
+      "sha256": "88c115036021d402fa74c191e6378b552726d7d000b1cc23b716d69186798bc2"
+    },
+    {
+      "path": "raw-rebuild.log",
+      "bytes": 50914,
+      "sha256": "fb90d26364ce154a055d2c60d6ac01bff46e6e4b2ce2ba6f088cd68d4ffab0ef"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "Assets/Scripts/AtrophyBrainController.ts",
+      "bytes": 6317,
+      "sha256": "da83541c53d09e481dee7980f4eb1fba03693c62bf41abf2dde09ae17334e1b8"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyClinicians.ts",
+      "bytes": 21972,
+      "sha256": "90668c4b104464c2a14a21958fe067c0914956d1d7708536680cd9e8bbb1c17f"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyData.ts",
+      "bytes": 1385,
+      "sha256": "513826a7ae6004eaf698c2403c11306dd65bad6aea040853cf277a21cb1eb6d8"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyHair.ts",
+      "bytes": 1786,
+      "sha256": "be2943fc196d6b3d6f22b15a418fe76c3eb97a35e970e9b07217684fa63c1126"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyInspect.ts",
+      "bytes": 11289,
+      "sha256": "cb4c1d688e2656f3ba9bbacb24b5b1477f7b0bfede483cca2e14f6d0a69a2df9"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLayout.ts",
+      "bytes": 4153,
+      "sha256": "2f1dbdfa15df80ce7c4e0d366da04b43b969aaa7301dc71bb8176b35afc750f4"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLayoutUI.ts",
+      "bytes": 4390,
+      "sha256": "e85f53cec47f7e2d96204f88a903ca4fb7ccdde8a04864aadcec3c555dabb9f3"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafIndex.ts",
+      "bytes": 2105,
+      "sha256": "17ed4990923cf2e20a02834ecb21d6f4c901440c9172fa6e43df57eeb7c2a7f6"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafInspect.ts",
+      "bytes": 5783,
+      "sha256": "e5040701d24c8c2b8fa9f55ba7013d5da38f0d39d1793f70930e0fa677185520"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafInteractor.ts",
+      "bytes": 5147,
+      "sha256": "b8489307f6665c3699df0eeca84c434863556a726d83ba12c4d0b381f3273f46"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafOnboarding.ts",
+      "bytes": 4523,
+      "sha256": "bb755cb67c4f338829e751d9902f553eeb512a50ad5d5876baf841d4c4427dbd"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafRegions.ts",
+      "bytes": 18975,
+      "sha256": "9e78eb44c38f24a17b545ef4ae0f0467157628e7c6ec0d781b6371a2a9788ae9"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyLeafScenario.ts",
+      "bytes": 46817,
+      "sha256": "ae33d70d7e22f4e038df7eafce61bf7e9468436249f240532c3499e3fbc8fff9"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyMain.ts",
+      "bytes": 5629,
+      "sha256": "8c2337d6058bf291ad270927ea3005974472f0cf9f8ef3e84e82d9a075220880"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyNativeCapture.ts",
+      "bytes": 14716,
+      "sha256": "e37a6657e3d880ab57721ab532c920051c0fdb3e303c482dcbf286135e1651fa"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyOnboarding.ts",
+      "bytes": 3970,
+      "sha256": "69db9581c63a8b6bd8c8424ee205b73125182e463f34ef14b5a05abcd8cf63fa"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyPlacement.ts",
+      "bytes": 2974,
+      "sha256": "ffc2fd7a9cfaaf5a424f4178b70d5cdc98e18dc151709a08fc34b1c256eaba0a"
+    },
+    {
+      "path": "Assets/Scripts/AtrophySliceFocus.ts",
+      "bytes": 3334,
+      "sha256": "e281cf8742c594cd21db30ddbe524ef744043cbf8a340f3c661d603726b7fe9b"
+    },
+    {
+      "path": "Assets/Scripts/AtrophySlicesUI.ts",
+      "bytes": 8747,
+      "sha256": "f55c11269435539275808a2d6e3a95113af221fd64e636dfba8875f168cbf7f3"
+    },
+    {
+      "path": "Assets/Scripts/AtrophySpaceUI.ts",
+      "bytes": 1514,
+      "sha256": "0987f9edd710f9cc78e0d39e257c3cd75aa65b630bd2155ab3adc6d5a0cbfb0d"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyTableOccluder.ts",
+      "bytes": 864,
+      "sha256": "a1c4b1497387c66605beb29cf72269c80b820ccdd007164bab088bcc78c1a2e1"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyTravelPath.ts",
+      "bytes": 4025,
+      "sha256": "61ad4accde08a9c905b831dcd6979de4447e1e426ec1d6199ed9ce7a14dc19b5"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyUniform.ts",
+      "bytes": 7260,
+      "sha256": "268e0b70a377d1a2198c9cc611f7c1db5ede9e30ca855f6450f497c7e9ff875e"
+    },
+    {
+      "path": "Assets/Scripts/AtrophyWarpUI.ts",
+      "bytes": 1135,
+      "sha256": "28c88c484927626326a7d435e9269db9c7d9327e82fc5bec404f65cb397ef126"
+    },
+    {
+      "path": "Assets/Scene.scene",
+      "bytes": 154504,
+      "sha256": "9bca7d09e692c57bf4f54da36b999a1c6481a90962288b54d15983f5fd23ee15"
+    },
+    {
+      "path": "Assets/Brain/region.json",
+      "bytes": 12491,
+      "sha256": "661a26cb012d73311b321a5cb701880214ecfd09f33d60764d64c2af05b49aa0"
+    }
+  ]
+}

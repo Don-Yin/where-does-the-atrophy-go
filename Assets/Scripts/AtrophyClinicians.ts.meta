@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/b442968e-78bc-4bdc-b15b-06e87cdab392>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b7493d94-34cc-4c13-b160-2dc849e635dc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b7493d94-34cc-4c13-b160-2dc849e635dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ea1fce52-43de-46f3-8bea-c89a017f50bb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ea1fce52-43de-46f3-8bea-c89a017f50bb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e2be6f87-3d7b-4290-9db6-573e9c4dcf0f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bubbleSeconds: false
+    femaleHairMaterial: false
+    femaleHairMesh: false
+    idleClip: false
+    main: false
+    rigMaterial: false
+    rigScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - main: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      rigMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      idleClip: !<reference.RemoteReferenceAsset> 00000000-0000-0000-0000-000000000000
+      femaleHairMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      femaleHairMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      rigScale: 1.150000
+      bubbleSeconds: !<float> 8.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Where Does the Atrophy Go? – clinicians</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 main {"hint":"Owner of the morph state; only morphWeight and its brain references are read"}'
+    - "// @input Asset.Material rigMaterial {\"hint\":\"Material the Bitmoji glTF is instantiated with: BitmojiMaterial, packed in Leaf's BitmojiCharacter.lsc\"}"
+    - "// @input Asset.RemoteReferenceAsset idleClip {\"hint\":\"Standing pose sampled at 5.3 seconds: Remote Animation Idle, packed in Leaf's BitmojiCharacter.lsc\"}"
+    - '// @input Asset.RenderMesh femaleHairMesh {"hint":"Complete hair mesh from the licensed Blonde Curly Wig package; attached only to the female head"}'
+    - "// @input Asset.Material femaleHairMaterial {\"hint\":\"Opaque chestnut/auburn strand-textured material; does not change either man's hair\"}"
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - "// @input float rigScale = 0.68 {\"hint\":\"Uniform rig scale; 1.0 is the Bitmoji's own 118 cm. The head keeps the Bitmoji's own proportion and is 24.7 cm wide at 1.0, so 0.68 gives an adult 16.8 cm\", \"widget\":\"slider\", \"min\":0.4, \"max\":1, \"step\":0.01}"
+    - '// @input float bubbleSeconds = 8 {"hint":"Seconds a spoken line stays up", "widget":"slider", "min":2, "max":60, "step":1}'
+    - '// @ui {"widget":"group_end"}'

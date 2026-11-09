@@ -1,0 +1,668 @@
+{
+ "scan": "ds007036_sub-P0006_ses-01",
+ "region": "lateral ventricle region compressed by the warp (image-segmented)",
+ "registration": {
+  "pipeline": "antspy-affine-syn-2009c",
+  "template": "MNI152NLin2009cAsym",
+  "parameters": {
+   "type_of_transform": "SyN",
+   "aff_metric": "mattes",
+   "aff_sampling": 32,
+   "aff_random_sampling_rate": 0.2,
+   "syn_metric": "CC",
+   "syn_sampling": 4,
+   "reg_iterations": [
+    120,
+    80,
+    40,
+    20
+   ],
+   "grad_step": 0.2,
+   "flow_sigma": 3,
+   "total_sigma": 0,
+   "mask_all_stages": false,
+   "singleprecision": true,
+   "use_legacy_histogram_matching": false
+  },
+  "seed": 20261104,
+  "threads": 1,
+  "raw_crop_z_indices": [
+   45,
+   234
+  ]
+ },
+ "template": "MNI152NLin2009cAsym",
+ "raw_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+ "ventricle_ml": {
+  "subject": 24.1,
+  "mni": 7.5
+ },
+ "ventricle_ml_exact": {
+  "subject": 24.06786456999029,
+  "mni": 7.517
+ },
+ "mni_z_mm": [
+  -34.0,
+  -20.0,
+  -6.0,
+  8.0,
+  22.0,
+  36.0,
+  50.0
+ ],
+ "subject_z_mm": [
+  -58.1,
+  -44.1,
+  -34.3,
+  -24.7,
+  -13.5,
+  -3.7,
+  5.4
+ ],
+ "slice_orientation": {
+  "subject": {
+   "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
+   "source_axis_codes": [
+    "R",
+    "A",
+    "S"
+   ],
+   "source_affine": [
+    [
+     0.899925172328949,
+     0.0003779706312343478,
+     -0.011231469921767712,
+     -84.4502182006836
+    ],
+    [
+     -0.00037859659641981125,
+     0.8984374403953552,
+     4.718726813734975e-06,
+     -82.13809204101562
+    ],
+    [
+     0.01125094760209322,
+     6.327257384697305e-09,
+     0.8983673453330994,
+     -122.17106628417969
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "display": "radiological: image left=R, right=L, top=A",
+   "letters": {
+    "image_left": "R",
+    "image_right": "L"
+   },
+   "image_x_world_mm": [
+    90.35210072418802,
+    -89.64789927581198
+   ],
+   "image_y_world_mm": [
+    112.27397304110556,
+    -103.72602695889444
+   ]
+  },
+  "common": {
+   "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
+   "source_axis_codes": [
+    "R",
+    "A",
+    "S"
+   ],
+   "source_affine": [
+    [
+     1.0,
+     0.0,
+     -0.0,
+     -96.0
+    ],
+    [
+     0.0,
+     1.0,
+     -0.0,
+     -132.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -78.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "display": "radiological: image left=R, right=L, top=A",
+   "letters": {
+    "image_left": "R",
+    "image_right": "L"
+   },
+   "image_x_world_mm": [
+    90.0,
+    -90.0
+   ],
+   "image_y_world_mm": [
+    90.0,
+    -126.0
+   ]
+  }
+ },
+ "key_slice": {
+  "subject": {
+   "world_z_mm": -16.0,
+   "coordinate_space": "subject scanner world",
+   "area_mm2": 1188,
+   "mask_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles.nii.gz",
+   "orientation": {
+    "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
+    "source_axis_codes": [
+     "R",
+     "A",
+     "S"
+    ],
+    "source_affine": [
+     [
+      0.899925172328949,
+      0.0003779706312343478,
+      -0.011231469921767712,
+      -84.4502182006836
+     ],
+     [
+      -0.00037859659641981125,
+      0.8984374403953552,
+      4.718726813734975e-06,
+      -82.13809204101562
+     ],
+     [
+      0.01125094760209322,
+      6.327257384697305e-09,
+      0.8983673453330994,
+      -122.17106628417969
+     ],
+     [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "display": "radiological: image left=R, right=L, top=A",
+    "letters": {
+     "image_left": "R",
+     "image_right": "L"
+    },
+    "image_x_world_mm": [
+     90.35210072418802,
+     -89.64789927581198
+    ],
+    "image_y_world_mm": [
+     112.27397304110556,
+     -103.72602695889444
+    ]
+   },
+   "method": "maximum nearest-neighbour ROI area on the exported 1 mm world-axial grid; inferior tie-break",
+   "grid_step_mm": 1,
+   "texture_prefix": "subject-key-0",
+   "candidates": [
+    {
+     "world_z_mm": -42.0,
+     "area_mm2": 26
+    },
+    {
+     "world_z_mm": -41.0,
+     "area_mm2": 51
+    },
+    {
+     "world_z_mm": -40.0,
+     "area_mm2": 100
+    },
+    {
+     "world_z_mm": -39.0,
+     "area_mm2": 143
+    },
+    {
+     "world_z_mm": -38.0,
+     "area_mm2": 176
+    },
+    {
+     "world_z_mm": -37.0,
+     "area_mm2": 215
+    },
+    {
+     "world_z_mm": -36.0,
+     "area_mm2": 263
+    },
+    {
+     "world_z_mm": -35.0,
+     "area_mm2": 315
+    },
+    {
+     "world_z_mm": -34.0,
+     "area_mm2": 333
+    },
+    {
+     "world_z_mm": -33.0,
+     "area_mm2": 356
+    },
+    {
+     "world_z_mm": -32.0,
+     "area_mm2": 381
+    },
+    {
+     "world_z_mm": -31.0,
+     "area_mm2": 411
+    },
+    {
+     "world_z_mm": -30.0,
+     "area_mm2": 454
+    },
+    {
+     "world_z_mm": -29.0,
+     "area_mm2": 525
+    },
+    {
+     "world_z_mm": -28.0,
+     "area_mm2": 569
+    },
+    {
+     "world_z_mm": -27.0,
+     "area_mm2": 598
+    },
+    {
+     "world_z_mm": -26.0,
+     "area_mm2": 638
+    },
+    {
+     "world_z_mm": -25.0,
+     "area_mm2": 739
+    },
+    {
+     "world_z_mm": -24.0,
+     "area_mm2": 907
+    },
+    {
+     "world_z_mm": -23.0,
+     "area_mm2": 1033
+    },
+    {
+     "world_z_mm": -22.0,
+     "area_mm2": 1092
+    },
+    {
+     "world_z_mm": -21.0,
+     "area_mm2": 1134
+    },
+    {
+     "world_z_mm": -20.0,
+     "area_mm2": 1164
+    },
+    {
+     "world_z_mm": -19.0,
+     "area_mm2": 1170
+    },
+    {
+     "world_z_mm": -18.0,
+     "area_mm2": 1179
+    },
+    {
+     "world_z_mm": -17.0,
+     "area_mm2": 1187
+    },
+    {
+     "world_z_mm": -16.0,
+     "area_mm2": 1188
+    },
+    {
+     "world_z_mm": -15.0,
+     "area_mm2": 1170
+    },
+    {
+     "world_z_mm": -14.0,
+     "area_mm2": 1142
+    },
+    {
+     "world_z_mm": -13.0,
+     "area_mm2": 1108
+    },
+    {
+     "world_z_mm": -12.0,
+     "area_mm2": 1024
+    },
+    {
+     "world_z_mm": -11.0,
+     "area_mm2": 891
+    },
+    {
+     "world_z_mm": -10.0,
+     "area_mm2": 733
+    },
+    {
+     "world_z_mm": -9.0,
+     "area_mm2": 587
+    },
+    {
+     "world_z_mm": -8.0,
+     "area_mm2": 441
+    },
+    {
+     "world_z_mm": -7.0,
+     "area_mm2": 309
+    },
+    {
+     "world_z_mm": -6.0,
+     "area_mm2": 192
+    },
+    {
+     "world_z_mm": -5.0,
+     "area_mm2": 121
+    },
+    {
+     "world_z_mm": -4.0,
+     "area_mm2": 58
+    }
+   ]
+  },
+  "common": {
+   "world_z_mm": 19.0,
+   "coordinate_space": "MNI",
+   "area_mm2": 728,
+   "mask_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles_mni.nii.gz",
+   "orientation": {
+    "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
+    "source_axis_codes": [
+     "R",
+     "A",
+     "S"
+    ],
+    "source_affine": [
+     [
+      1.0,
+      0.0,
+      -0.0,
+      -96.0
+     ],
+     [
+      0.0,
+      1.0,
+      -0.0,
+      -132.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -78.0
+     ],
+     [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "display": "radiological: image left=R, right=L, top=A",
+    "letters": {
+     "image_left": "R",
+     "image_right": "L"
+    },
+    "image_x_world_mm": [
+     90.0,
+     -90.0
+    ],
+    "image_y_world_mm": [
+     90.0,
+     -126.0
+    ]
+   },
+   "method": "maximum nearest-neighbour ROI area on the exported 1 mm world-axial grid; inferior tie-break",
+   "grid_step_mm": 1,
+   "texture_prefix": "common-key-0",
+   "candidates": [
+    {
+     "world_z_mm": 1.0,
+     "area_mm2": 5
+    },
+    {
+     "world_z_mm": 2.0,
+     "area_mm2": 12
+    },
+    {
+     "world_z_mm": 3.0,
+     "area_mm2": 22
+    },
+    {
+     "world_z_mm": 4.0,
+     "area_mm2": 40
+    },
+    {
+     "world_z_mm": 5.0,
+     "area_mm2": 46
+    },
+    {
+     "world_z_mm": 6.0,
+     "area_mm2": 55
+    },
+    {
+     "world_z_mm": 7.0,
+     "area_mm2": 68
+    },
+    {
+     "world_z_mm": 8.0,
+     "area_mm2": 79
+    },
+    {
+     "world_z_mm": 9.0,
+     "area_mm2": 97
+    },
+    {
+     "world_z_mm": 10.0,
+     "area_mm2": 116
+    },
+    {
+     "world_z_mm": 11.0,
+     "area_mm2": 130
+    },
+    {
+     "world_z_mm": 12.0,
+     "area_mm2": 167
+    },
+    {
+     "world_z_mm": 13.0,
+     "area_mm2": 221
+    },
+    {
+     "world_z_mm": 14.0,
+     "area_mm2": 308
+    },
+    {
+     "world_z_mm": 15.0,
+     "area_mm2": 399
+    },
+    {
+     "world_z_mm": 16.0,
+     "area_mm2": 513
+    },
+    {
+     "world_z_mm": 17.0,
+     "area_mm2": 654
+    },
+    {
+     "world_z_mm": 18.0,
+     "area_mm2": 706
+    },
+    {
+     "world_z_mm": 19.0,
+     "area_mm2": 728
+    },
+    {
+     "world_z_mm": 20.0,
+     "area_mm2": 715
+    },
+    {
+     "world_z_mm": 21.0,
+     "area_mm2": 690
+    },
+    {
+     "world_z_mm": 22.0,
+     "area_mm2": 585
+    },
+    {
+     "world_z_mm": 23.0,
+     "area_mm2": 452
+    },
+    {
+     "world_z_mm": 24.0,
+     "area_mm2": 347
+    },
+    {
+     "world_z_mm": 25.0,
+     "area_mm2": 236
+    },
+    {
+     "world_z_mm": 26.0,
+     "area_mm2": 118
+    },
+    {
+     "world_z_mm": 27.0,
+     "area_mm2": 8
+    }
+   ]
+  }
+ },
+ "volume_curve": {
+  "source": "ventricles.glb",
+  "method": "closed-mesh signed tetrahedra; cubic fit; coefficients ascending in w",
+  "coefficients_ml": [
+   24.1,
+   -19.82548605590251,
+   2.8004921264202642,
+   0.4249939294822441
+  ],
+  "mesh_coefficients_ml": [
+   23.98404451676236,
+   -20.035801283594004,
+   2.8004921264202642,
+   0.4249939294822441
+  ],
+  "mesh_endpoint_ml": {
+   "subject": 23.98404451676237,
+   "mni": 7.173729289070853
+  },
+  "endpoint_relative_error": {
+   "subject": 0.004811430839735675,
+   "mni": 0.04350276145721954
+  },
+  "endpoint_tolerance": 0.03,
+  "approximate": true,
+  "endpoints_pinned": true,
+  "max_fit_residual_ml": 2.4868995751603507e-14,
+  "samples": [
+   {
+    "weight": 0.0,
+    "mesh_ml": 23.98404451676237
+   },
+   {
+    "weight": 0.0625,
+    "mesh_ml": 22.742850117190155
+   },
+   {
+    "weight": 0.125,
+    "mesh_ml": 21.524157112056965
+   },
+   {
+    "weight": 0.1875,
+    "mesh_ml": 20.328588051064205
+   },
+   {
+    "weight": 0.25,
+    "mesh_ml": 19.156765483913297
+   },
+   {
+    "weight": 0.3125,
+    "mesh_ml": 18.009311960305595
+   },
+   {
+    "weight": 0.375,
+    "mesh_ml": 16.886850029942508
+   },
+   {
+    "weight": 0.4375,
+    "mesh_ml": 15.790002242525418
+   },
+   {
+    "weight": 0.5,
+    "mesh_ml": 14.719391147755704
+   },
+   {
+    "weight": 0.5625,
+    "mesh_ml": 13.675639295334783
+   },
+   {
+    "weight": 0.625,
+    "mesh_ml": 12.659369234964023
+   },
+   {
+    "weight": 0.6875,
+    "mesh_ml": 11.671203516344827
+   },
+   {
+    "weight": 0.75,
+    "mesh_ml": 10.71176468917857
+   },
+   {
+    "weight": 0.8125,
+    "mesh_ml": 9.781675303166665
+   },
+   {
+    "weight": 0.875,
+    "mesh_ml": 8.88155790801048
+   },
+   {
+    "weight": 0.9375,
+    "mesh_ml": 8.012035053411406
+   },
+   {
+    "weight": 1.0,
+    "mesh_ml": 7.173729289070853
+   }
+  ]
+ },
+ "warp_jacobian": {
+  "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_to_mni_jac.nii.gz",
+  "units": "patient volume per template volume",
+  "transform": "full affine+SyN geometric pullback Jacobian",
+  "colour": "RdBu_r",
+  "log2_clip": 1.5,
+  "slice_alpha": 0.65,
+  "blue": "stretched into template (J < 1)",
+  "red": "squeezed into template (J > 1)",
+  "cortex": {
+   "patient": {
+    "vertices": 44592,
+    "min": 0.13679219782352448,
+    "max": 2.8593831062316895
+   },
+   "template": {
+    "vertices": 44874,
+    "min": 0.12841802835464478,
+    "max": 4.292353630065918
+   }
+  },
+  "subject_display": "neutral cortex and slices; no Jacobian overlay",
+  "morph_display": "neutral to full J vertex colour, weighted by the current morph weight",
+  "common_sampling": "MNI world -> MNI Jacobian",
+  "caveat": "spatial warp, not atrophy"
+ },
+ "triangles": {
+  "patient": 89999,
+  "ventricles": 23932
+ }
+}

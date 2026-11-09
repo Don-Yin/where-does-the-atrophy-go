@@ -1,0 +1,8 @@
+{
+  "include": ["pipeline"],
+  "exclude": ["**/__pycache__", "pipeline/raw", "pipeline/.intermediates", "pipeline/.results"],
+  "pythonVersion": "3.11",
+  "venvPath": ".",
+  "venv": ".venv",
+  "executionEnvironments": [{"root": "pipeline"}]
+}

@@ -1,0 +1,374 @@
+{
+  "seed": 20261104,
+  "threads": 1,
+  "method": "two separate default-profiled runs; completion invalidated; every derivative deleted and regenerated from raw before run 2",
+  "runs": [
+    {
+      "registration": {
+        "pipeline": "antspy-affine-syn-2009c",
+        "signature": {
+          "pipeline": "antspy-affine-syn-2009c",
+          "template": "MNI152NLin2009cAsym",
+          "parameters": {
+            "type_of_transform": "SyN",
+            "aff_metric": "mattes",
+            "aff_sampling": 32,
+            "aff_random_sampling_rate": 0.2,
+            "syn_metric": "CC",
+            "syn_sampling": 4,
+            "reg_iterations": [
+              120,
+              80,
+              40,
+              20
+            ],
+            "grad_step": 0.2,
+            "flow_sigma": 3,
+            "total_sigma": 0,
+            "mask_all_stages": false,
+            "singleprecision": true,
+            "use_legacy_histogram_matching": false
+          },
+          "seed": 20261104,
+          "threads": 1,
+          "raw_crop_z_indices": [
+            45,
+            234
+          ]
+        },
+        "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+        "template_reference": {
+          "1mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
+          "2mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
+        },
+        "fwdtransforms": [
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
+        ],
+        "invtransforms": [
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
+        ],
+        "region": {
+          "dark_fraction": 0.35,
+          "forward_j_limit": 0.5,
+          "sigma_voxels": 2,
+          "dark_threshold": 605.8516845703125,
+          "components": 2,
+          "voxels": 33130,
+          "mean_forward_j": 0.3389712870121002,
+          "subject_ml": 24.06786456999029,
+          "mni_ml": 7.517
+        },
+        "registration_seconds": 316.7894306660164,
+        "total_seconds": 346.14300345804077,
+        "jacobian_convention": "full affine+SyN MNI pullback: dV_subject / dV_MNI"
+      },
+      "masks": {
+        "brain_mask": {
+          "sha256_file": "b79ed99d38de3d6e69088a828a858d54ef36f433e8c1f6ed90c3bc6e42a5c354",
+          "sha256_voxels": "91e682a0523b886c897695de1fedfd4b63d37ba1bf4fb04e2cde6c56c33946b0",
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "dtype": "float32",
+          "affine": [
+            [
+              0.899925172328949,
+              0.0003779706312343478,
+              -0.011231469921767712,
+              -84.4502182006836
+            ],
+            [
+              -0.00037859659641981125,
+              0.8984374403953552,
+              4.718726813734975e-06,
+              -82.13809204101562
+            ],
+            [
+              0.01125094760209322,
+              6.327257384697305e-09,
+              0.8983673453330994,
+              -122.17106628417969
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 1455063
+        },
+        "ventricles": {
+          "sha256_file": "e909930f6468a4485e4dcc96de740b1a6ed72afbe35df723eec5f19cdaabe5a5",
+          "sha256_voxels": "384e87a0e488c2e412de4385c655a73a681a2b9f05508cb33a4c5aca895ca2f9",
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "dtype": "uint8",
+          "affine": [
+            [
+              0.899925172328949,
+              0.0003779706312343478,
+              -0.011231469921767712,
+              -84.4502182006836
+            ],
+            [
+              -0.0003785965673159808,
+              0.8984374403953552,
+              4.718727268482326e-06,
+              -82.13809204101562
+            ],
+            [
+              0.01125094760209322,
+              6.327381729676063e-09,
+              0.8983672857284546,
+              -122.17106628417969
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 33130
+        },
+        "ventricles_mni": {
+          "sha256_file": "589f492141d118d500b15a876834932e72cb57dd65baf3eadfdcc5666033dca0",
+          "sha256_voxels": "1ffefb497362a695ed46b0705dbb39ddfbf81c0397250795bcef9e2aba181cda",
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "dtype": "float32",
+          "affine": [
+            [
+              1.0,
+              0.0,
+              -0.0,
+              -96.0
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0,
+              -132.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -78.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 7517
+        }
+      },
+      "raw_sha256": "6b6fceb505dab7d7ffe75c1eb7745c405a3ee2ad23ff4c420ee29a85002f5eac"
+    },
+    {
+      "registration": {
+        "pipeline": "antspy-affine-syn-2009c",
+        "signature": {
+          "pipeline": "antspy-affine-syn-2009c",
+          "template": "MNI152NLin2009cAsym",
+          "parameters": {
+            "type_of_transform": "SyN",
+            "aff_metric": "mattes",
+            "aff_sampling": 32,
+            "aff_random_sampling_rate": 0.2,
+            "syn_metric": "CC",
+            "syn_sampling": 4,
+            "reg_iterations": [
+              120,
+              80,
+              40,
+              20
+            ],
+            "grad_step": 0.2,
+            "flow_sigma": 3,
+            "total_sigma": 0,
+            "mask_all_stages": false,
+            "singleprecision": true,
+            "use_legacy_histogram_matching": false
+          },
+          "seed": 20261104,
+          "threads": 1,
+          "raw_crop_z_indices": [
+            45,
+            234
+          ]
+        },
+        "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+        "template_reference": {
+          "1mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
+          "2mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
+        },
+        "fwdtransforms": [
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
+        ],
+        "invtransforms": [
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
+          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
+        ],
+        "region": {
+          "dark_fraction": 0.35,
+          "forward_j_limit": 0.5,
+          "sigma_voxels": 2,
+          "dark_threshold": 605.8516845703125,
+          "components": 2,
+          "voxels": 33130,
+          "mean_forward_j": 0.3389712870121002,
+          "subject_ml": 24.06786456999029,
+          "mni_ml": 7.517
+        },
+        "registration_seconds": 227.96815787500236,
+        "total_seconds": 255.2624314170098,
+        "jacobian_convention": "full affine+SyN MNI pullback: dV_subject / dV_MNI"
+      },
+      "masks": {
+        "brain_mask": {
+          "sha256_file": "b79ed99d38de3d6e69088a828a858d54ef36f433e8c1f6ed90c3bc6e42a5c354",
+          "sha256_voxels": "91e682a0523b886c897695de1fedfd4b63d37ba1bf4fb04e2cde6c56c33946b0",
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "dtype": "float32",
+          "affine": [
+            [
+              0.899925172328949,
+              0.0003779706312343478,
+              -0.011231469921767712,
+              -84.4502182006836
+            ],
+            [
+              -0.00037859659641981125,
+              0.8984374403953552,
+              4.718726813734975e-06,
+              -82.13809204101562
+            ],
+            [
+              0.01125094760209322,
+              6.327257384697305e-09,
+              0.8983673453330994,
+              -122.17106628417969
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 1455063
+        },
+        "ventricles": {
+          "sha256_file": "e909930f6468a4485e4dcc96de740b1a6ed72afbe35df723eec5f19cdaabe5a5",
+          "sha256_voxels": "384e87a0e488c2e412de4385c655a73a681a2b9f05508cb33a4c5aca895ca2f9",
+          "shape": [
+            192,
+            256,
+            189
+          ],
+          "dtype": "uint8",
+          "affine": [
+            [
+              0.899925172328949,
+              0.0003779706312343478,
+              -0.011231469921767712,
+              -84.4502182006836
+            ],
+            [
+              -0.0003785965673159808,
+              0.8984374403953552,
+              4.718727268482326e-06,
+              -82.13809204101562
+            ],
+            [
+              0.01125094760209322,
+              6.327381729676063e-09,
+              0.8983672857284546,
+              -122.17106628417969
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 33130
+        },
+        "ventricles_mni": {
+          "sha256_file": "589f492141d118d500b15a876834932e72cb57dd65baf3eadfdcc5666033dca0",
+          "sha256_voxels": "1ffefb497362a695ed46b0705dbb39ddfbf81c0397250795bcef9e2aba181cda",
+          "shape": [
+            193,
+            229,
+            193
+          ],
+          "dtype": "float32",
+          "affine": [
+            [
+              1.0,
+              0.0,
+              -0.0,
+              -96.0
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0,
+              -132.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -78.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "sum": 7517
+        }
+      },
+      "raw_sha256": "6b6fceb505dab7d7ffe75c1eb7745c405a3ee2ad23ff4c420ee29a85002f5eac"
+    }
+  ],
+  "masks_bitwise_identical": true,
+  "volumes_bitwise_identical": true,
+  "raw_identical": true,
+  "same_signature": true,
+  "runtimes_seconds": [
+    {
+      "registration": 316.7894306660164,
+      "total": 346.14300345804077
+    },
+    {
+      "registration": 227.96815787500236,
+      "total": 255.2624314170098
+    }
+  ],
+  "scope": "same machine and pinned ants-reg environment; no claim of cross-platform bitwise reproducibility"
+}

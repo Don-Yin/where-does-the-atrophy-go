@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/1eecce99-4200-48a3-898b-a09d7cbf0136>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> eb145233-1c8a-4417-bdeb-903358f50aaa
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> eb145233-1c8a-4417-bdeb-903358f50aaa
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 528441a1-9adb-4da5-8fa8-53fd219d418f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/528441a1-9adb-4da5-8fa8-53fd219d418f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: d8f3f1f2-c982-4272-8a3b-08343270fcb7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    commonSpace: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - commonSpace: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Atrophy – seven axial slices</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool commonSpace {"hint":"Select template slices and MNI z labels; false selects subject-space cuts"}'
+    - '// @ui {"widget":"group_end"}'

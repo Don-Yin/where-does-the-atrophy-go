@@ -1,0 +1,15 @@
+{
+  "recipe_id": "reader-facing-mni-z-seven-v1",
+  "plane": "axial",
+  "order": "inferior-to-superior",
+  "n_slices": 7,
+  "requested_mni_z_mm": [
+    -34,
+    -20,
+    -6,
+    8,
+    22,
+    36,
+    50
+  ]
+}

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/8880ed9f-67b5-4140-b868-d29c45be1edd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d02bfd04-6016-4e0f-8828-5e518509c43f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d02bfd04-6016-4e0f-8828-5e518509c43f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bbaee4b2-e10c-43f2-b78c-1eadd713481c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bbaee4b2-e10c-43f2-b78c-1eadd713481c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 452e5e42-947b-483b-b72d-604d1186b0a9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    commonBrain: false
+    commonSlices: false
+    morphBrain: false
+    subjectBrain: false
+    subjectSlices: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - subjectBrain: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      commonBrain: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      morphBrain: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      subjectSlices: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      commonSlices: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Atrophy – progressive Warp colours</span>"}'
+    - // @input AssignableType_1 subjectBrain
+    - // @input AssignableType_2 commonBrain
+    - // @input AssignableType_3 morphBrain
+    - // @input AssignableType_4 subjectSlices
+    - // @input AssignableType_5 commonSlices

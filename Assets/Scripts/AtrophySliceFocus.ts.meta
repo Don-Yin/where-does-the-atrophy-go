@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/b1220279-d561-43ba-90a7-48818f067cbb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8bab5784-afdd-46ed-8efd-5fcaaadd56dc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8bab5784-afdd-46ed-8efd-5fcaaadd56dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 19d85e3c-c231-41a0-96b9-912056be162b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/19d85e3c-c231-41a0-96b9-912056be162b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 7eee4401-9e2f-4c70-8796-1c5e48403540
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    common: false
+    commonBrain: false
+    morphBrain: false
+    subject: false
+    subjectBrain: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - subject: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      common: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      subjectBrain: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      commonBrain: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      morphBrain: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 subject
+    - // @input AssignableType_2 common
+    - // @input AssignableType_3 subjectBrain
+    - // @input AssignableType_4 commonBrain
+    - // @input AssignableType_5 morphBrain

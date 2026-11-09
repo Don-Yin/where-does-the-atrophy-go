@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/eb8d6447-538f-4841-a723-585f5be4d4b5>
+  ImportedAssetIds:
+    26ba073d67b9d0dd: !<reference> 5cf0e4d1-390d-4926-8eeb-0a39a69bc4c7
+    4bf3d58b50af7cba: !<reference> f825f1eb-fc4f-4d9c-9708-c408550977db
+    7cf6f9bfd2748a05: !<reference> 56637d0e-fb0b-45f9-ac0e-1b88a09fd927
+    88ab437fd121cc69: !<reference> b3bc42d1-eca2-47e4-be29-406abc8b7f06
+    8c2c6f3cf8d060fd: !<reference> 0f9327f8-0f28-4bc2-9b09-fb374812630c
+    Meshes/patient-warp: !<reference> 0485dbd8-383f-4cfb-9752-dfdac8f7a487
+    Scene: !<reference> 95b4dcb9-6e9d-4d7b-b634-dbd43b0ef5cc
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 95b4dcb9-6e9d-4d7b-b634-dbd43b0ef5cc
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 0341bd02-6730-4576-8213-fc96239a80d0
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/0341bd02-6730-4576-8213-fc96239a80d0>
+  Prototype: !<ObjectOwner/14428a7e-c21d-49ca-bf69-3853ac8b3007>
+    PackagePath: ""
+    objects:
+      - !<own> 5cf0e4d1-390d-4926-7114-f5c659643b38
+- !<SceneObject/0f9327f8-0f28-4bc2-64f6-04c8b7ed9cf3>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f825f1eb-fc4f-4d9c-68f7-3bf7aaf68824
+  Components:
+    []
+- !<RenderMeshVisual/56637d0e-fb0b-45f9-53f1-e4775f6026d8>
+  PrefabRemaps:
+    []
+  Name: patient-warp
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 0485dbd8-383f-4cfb-9752-dfdac8f7a487
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    mni: 0.000000
+- !<SceneObject/5cf0e4d1-390d-4926-7114-f5c659643b38>
+  PrefabRemaps:
+    []
+  Name: patient-warp
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b3bc42d1-eca2-47e4-41d6-bf95437480f9
+  Components:
+    []
+- !<SceneObject/b3bc42d1-eca2-47e4-41d6-bf95437480f9>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0f9327f8-0f28-4bc2-64f6-04c8b7ed9cf3
+  Components:
+    []
+- !<SceneObject/f825f1eb-fc4f-4d9c-68f7-3bf7aaf68824>
+  PrefabRemaps:
+    []
+  Name: patient-warp
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 56637d0e-fb0b-45f9-53f1-e4775f6026d8

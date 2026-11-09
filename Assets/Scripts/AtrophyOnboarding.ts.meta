@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/e8ae2daf-471f-4930-8c7c-c50fe48d1edf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 53b83f11-0839-45bf-8db8-10d84dda4146
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 53b83f11-0839-45bf-8db8-10d84dda4146
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 643ed4d8-d54a-4a2b-878e-5736aa8e01cc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/643ed4d8-d54a-4a2b-878e-5736aa8e01cc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b4d93e33-9365-40f0-8141-66a644859090
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    handPrefab: false
+    main: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - main: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      handPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 main
+    - // @input Asset.ObjectPrefab handPrefab

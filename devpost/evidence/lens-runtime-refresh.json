@@ -1,0 +1,40 @@
+{
+  "byteOffset": 9431086,
+  "errors": [
+    "W 02:07:16.210 [CamPlat.LensCore.Scn.Rendering.SnapGraphics] Depth format Depth24UnormStencil8 is not renderable; using Depth32FloatStencil8. (×2)"
+  ],
+  "errorsCapped": false,
+  "firstActivityAtMs": 29,
+  "logFile": "/Users/dy323/Library/Preferences/Snap/Lens Studio/logs/LensStudioLog-2026-11-07-19-08-42-963-1d82f.txt",
+  "mode": "refresh",
+  "newBytes": 9667,
+  "prints": [
+    "I 02:07:15.634 [Preview 1] [Packages/InteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] IK Version : 4.0.0",
+    "I 02:07:15.655 [Preview 1] [Packages/InteractionKit.lspkg/Utils/logger.ts:21] InteractionRuntime: Interaction runtime selected: legacy Physics.",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-01-startup",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-02-endpoints",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-03-smooth-morph",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-04-billboard-slices",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-05-readability",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-06-ik-far-field",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-07-demo-sweep",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-08-clinicians",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-12-slice-focus",
+    "I 02:07:16.005 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.048s]Register scenario: atrophy-13-inspect-copy",
+    "I 02:07:16.006 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.049s]Register scenario: atrophy-14-projection-clearance",
+    "I 02:07:16.006 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.049s]Register scenario: atrophy-11-placement",
+    "I 02:07:16.006 [Preview 1] [Assets/Leaf.lspkg/Utils/common/Logger.ts:147] I [DefaultLeafScenarioManager] [  0.049s]Register scenario: atrophy-10-warp-view",
+    "I 02:07:16.135 [Preview 1] [Assets/Scripts/AtrophyMain.ts:63] Atrophy ready: P0006, pinch-drag brain, two endpoints, seven slices per space",
+    "I 02:07:16.138 [Preview 1] [Assets/Scripts/AtrophyInspect.ts:69] Atrophy Inspect ready: stationary 0.5 s pinch, SIK manipulation, return on release",
+    "I 02:07:16.143 [Preview 1] [Assets/Scripts/AtrophyWarpUI.ts:23] Atrophy Warp ready: always on, Main-owned progressive colour"
+  ],
+  "printsCapped": false,
+  "rotated": false,
+  "settleElapsedMs": 1005,
+  "settleMaxMs": 1500,
+  "settleMaxRaised": false,
+  "status": "success",
+  "tail": "I 02:07:15.426 Lens has been reset\nI 02:07:15.433 Lens has been reset\nD 02:07:15.584 Http request cancellation not implemented\nD 02:07:15.584 Http request cancellation not implemented\nD 02:07:15.584 Http request cancellation not implemented\nD 02:07:15.584 Http request cancellation not implemented",
+  "truncated": false
+}
+

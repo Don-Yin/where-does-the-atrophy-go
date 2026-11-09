@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/50aecd90-8fba-4c8b-82bf-a681b25eaae1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3585f029-1766-498f-a82b-776a7965ed5d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3585f029-1766-498f-a82b-776a7965ed5d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bed590c2-f5cd-4b91-bdaa-2df6d886e369
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bed590c2-f5cd-4b91-bdaa-2df6d886e369>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 79d33f00-8668-47f3-b5e9-dd8ebdaf7be7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    commonSpace: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - commonSpace: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Atrophy – endpoint label</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool commonSpace {"hint":"False: patient / subject coordinates. True: template / MNI coordinates"}'
+    - '// @ui {"widget":"group_end"}'

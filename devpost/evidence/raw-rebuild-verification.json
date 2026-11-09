@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "exact_mask_ml": {
+    "subject": 24.06786456999029,
+    "mni": 7.517
+  },
+  "display_ml": {
+    "subject": 24.1,
+    "mni": 7.5
+  },
+  "raw_sha256": "6b6fceb505dab7d7ffe75c1eb7745c405a3ee2ad23ff4c420ee29a85002f5eac",
+  "key_slices": {
+    "subject": {
+      "world_z_mm": -16.0,
+      "area_mm2": 1188
+    },
+    "common": {
+      "world_z_mm": 19.0,
+      "area_mm2": 728
+    }
+  },
+  "matched_fields": [
+    "scan",
+    "template",
+    "ventricle_ml",
+    "ventricle_ml_exact",
+    "mni_z_mm",
+    "subject_z_mm",
+    "key_slice.subject",
+    "key_slice.common"
+  ]
+}

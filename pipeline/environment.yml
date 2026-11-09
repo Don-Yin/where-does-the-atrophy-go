@@ -1,0 +1,17 @@
+name: ants-reg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - antspyx==0.6.3
+      - templateflow==25.1.2
+      - nibabel==5.4.2
+      - numpy==2.2.6
+      - scipy==1.14.1
+      - pyinstrument==5.1.3
+      - pyvista==0.49.2
+      - scikit-image==0.26.0
+      - Pillow==13.0.0
+      - matplotlib==3.11.2

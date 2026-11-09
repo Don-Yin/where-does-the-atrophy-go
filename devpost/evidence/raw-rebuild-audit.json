@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "wrong_measurement_rejected": true,
+  "wrong_raw_input_rejected": true,
+  "reference": "pipeline/reference-measurements.json",
+  "reconstruction": {
+    "status": "PASS",
+    "exact_mask_ml": {
+      "subject": 24.06786456999029,
+      "mni": 7.517
+    },
+    "display_ml": {
+      "subject": 24.1,
+      "mni": 7.5
+    },
+    "raw_sha256": "6b6fceb505dab7d7ffe75c1eb7745c405a3ee2ad23ff4c420ee29a85002f5eac",
+    "key_slices": {
+      "subject": {
+        "world_z_mm": -16.0,
+        "area_mm2": 1188
+      },
+      "common": {
+        "world_z_mm": 19.0,
+        "area_mm2": 728
+      }
+    },
+    "matched_fields": [
+      "scan",
+      "template",
+      "ventricle_ml",
+      "ventricle_ml_exact",
+      "mni_z_mm",
+      "subject_z_mm",
+      "key_slice.subject",
+      "key_slice.common"
+    ]
+  },
+  "masks": {
+    "brain_mask": {
+      "sha256_file": "b79ed99d38de3d6e69088a828a858d54ef36f433e8c1f6ed90c3bc6e42a5c354",
+      "sha256_voxels": "91e682a0523b886c897695de1fedfd4b63d37ba1bf4fb04e2cde6c56c33946b0",
+      "file_matches_original_two_run_proof": true,
+      "voxels_match_original_two_run_proof": true,
+      "shape": [
+        192,
+        256,
+        189
+      ],
+      "dtype": "float32",
+      "voxel_sum": 1455063
+    },
+    "ventricles": {
+      "sha256_file": "e909930f6468a4485e4dcc96de740b1a6ed72afbe35df723eec5f19cdaabe5a5",
+      "sha256_voxels": "384e87a0e488c2e412de4385c655a73a681a2b9f05508cb33a4c5aca895ca2f9",
+      "file_matches_original_two_run_proof": true,
+      "voxels_match_original_two_run_proof": true,
+      "shape": [
+        192,
+        256,
+        189
+      ],
+      "dtype": "uint8",
+      "voxel_sum": 33130
+    },
+    "ventricles_mni": {
+      "sha256_file": "589f492141d118d500b15a876834932e72cb57dd65baf3eadfdcc5666033dca0",
+      "sha256_voxels": "1ffefb497362a695ed46b0705dbb39ddfbf81c0397250795bcef9e2aba181cda",
+      "file_matches_original_two_run_proof": true,
+      "voxels_match_original_two_run_proof": true,
+      "shape": [
+        193,
+        229,
+        193
+      ],
+      "dtype": "float32",
+      "voxel_sum": 7517
+    }
+  }
+}

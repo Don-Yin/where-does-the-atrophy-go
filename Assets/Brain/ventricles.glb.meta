@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/ae9e9aad-c685-4f98-a6de-b07092172a1f>
+  ImportedAssetIds:
+    056d352fd19a42c2: !<reference> cbc4c62c-b84d-4a1d-a92c-b7907461acde
+    26ba073d67b9d0dd: !<reference> 3eab9fd7-635d-44ba-b7e0-da7a4af6a036
+    88ab437fd121cc69: !<reference> 90c4a184-bb75-480a-9cf8-13699ff2ef40
+    8c2c6f3cf8d060fd: !<reference> 3b590891-3a17-4bbe-bc51-d72495071806
+    Meshes/ventricles: !<reference> dc57f9a8-f852-4ab5-b569-a291e9c23ce0
+    Scene: !<reference> ac8769b2-6c82-41a0-a401-73d91a678b19
+    c069bae33624aefe: !<reference> 1b2b4149-062c-41ab-9dda-9335cdf0c278
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> ac8769b2-6c82-41a0-a401-73d91a678b19
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 3e8e64fd-0693-4a58-9afd-27f178d24844
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/1b2b4149-062c-41ab-6225-6cca320f3d87>
+  PrefabRemaps:
+    []
+  Name: ventricles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cbc4c62c-b84d-4a1d-56d3-486f8b9e5321
+- !<SceneObject/3b590891-3a17-4bbe-43ae-28db6af8e7f9>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b2b4149-062c-41ab-6225-6cca320f3d87
+  Components:
+    []
+- !<ObjectPrefabAssetData/3e8e64fd-0693-4a58-9afd-27f178d24844>
+  Prototype: !<ObjectOwner/6779d38d-c5f9-449c-a653-636e52fc6a40>
+    PackagePath: ""
+    objects:
+      - !<own> 3eab9fd7-635d-44ba-481f-2585b5095fc9
+- !<SceneObject/3eab9fd7-635d-44ba-481f-2585b5095fc9>
+  PrefabRemaps:
+    []
+  Name: ventricles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 90c4a184-bb75-480a-6307-ec96600d10bf
+  Components:
+    []
+- !<SceneObject/90c4a184-bb75-480a-6307-ec96600d10bf>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3b590891-3a17-4bbe-43ae-28db6af8e7f9
+  Components:
+    []
+- !<RenderMeshVisual/cbc4c62c-b84d-4a1d-56d3-486f8b9e5321>
+  PrefabRemaps:
+    []
+  Name: ventricles
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> dc57f9a8-f852-4ab5-b569-a291e9c23ce0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    mni: 0.000000

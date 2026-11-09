@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/69c775af-9b88-450b-84c1-b57b8629b9e2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6bcb21b8-fc60-4d97-a2b3-106096fe66a8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6bcb21b8-fc60-4d97-a2b3-106096fe66a8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8e4a5237-f9b8-42b9-9ad3-fe090906858a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8e4a5237-f9b8-42b9-9ad3-fe090906858a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 50b95c47-0fea-4845-946d-a106d390275b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    common: false
+    main: false
+    subject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - main: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      subject: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      common: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 main
+    - // @input AssignableType_2 subject
+    - // @input AssignableType_3 common

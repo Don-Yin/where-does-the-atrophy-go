@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/5d07f350-005e-4b3c-9973-99a22cc9567b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1daf2e76-b697-42c2-be82-0d7dd11a385e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1daf2e76-b697-42c2-be82-0d7dd11a385e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d1e806de-79df-4d87-a55c-7058cf2a93de
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d1e806de-79df-4d87-a55c-7058cf2a93de>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c7575132-c1d7-4b45-a129-7aa89f4d571c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cortex: false
+    cortexMorphs: false
+    initialWeight: false
+    planes: false
+    region: false
+    warpMesh: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cortex: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      region: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      planes: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      warpMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      cortexMorphs: true
+      initialWeight: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Atrophy – brain and carried ventricle region</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject cortex {"hint":"Authored GLB instance of the cortex; scale 100 and upright X rotation -90°"}'
+    - '// @input SceneObject region {"hint":"Authored ventricle GLB instance with the same coordinate frame"}'
+    - '// @input SceneObject planes {"hint":"Authored seven-plane GLB instance (subject z at weight 0, MNI z at weight 1)"}'
+    - '// @input Asset.RenderMesh warpMesh {"hint":"Offline Jacobian colour set: identical cortex vertices and morph target, only vertex colours differ"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool cortexMorphs = true {"hint":"False only for the static template cortex, which has no blend shape"}'
+    - '// @input float initialWeight {"hint":"Fixed endpoint weight: subject 0, common 1; Main updates the morphing brain", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'

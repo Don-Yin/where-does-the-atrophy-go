@@ -1,0 +1,53 @@
+Where Does the Atrophy Go? — third-party notices
+
+Medical template and derived display assets
+-----------------------------------------
+ICBM 152 Nonlinear Asymmetrical template version 2009c
+TemplateFlow identifier: MNI152NLin2009cAsym
+
+Copyright (C) 1993–2004 Louis Collins, McConnell Brain Imaging Centre,
+Montreal Neurological Institute, McGill University.
+
+The template's own permission grants use, copying, modification and
+redistribution for any purpose and without fee, provided that its copyright
+notice appears in all copies. The complete, unmodified text is retained in
+third-party-licenses/icbm152-2009c.txt. TemplateFlow's client licence does not
+replace the template licence.
+
+Modifications for this project, 2026-11-04: the template is brain-masked and
+converted to a neutral cortex mesh; public patient T1 scans are neck-cropped,
+registered with ANTsPy affine + SyN, and converted into meshes, morph targets,
+grey slices, ROI outlines and full-transform Jacobian colours. The dark-CSF
+ROI rule is applied to the current transform. These are educational display
+assets, not diagnostic segmentations. No FSL binary, template or atlas is used
+in the current medical assets.
+
+Offline processing software
+---------------------------
+ANTsPy / antspyx 0.6.3, ANTsX / ANTsPy contributors
+https://github.com/ANTsX/ANTsPy
+Apache License, Version 2.0; the installed distribution's complete licence is
+retained in third-party-licenses/antspyx-apache-2.0.txt.
+
+TemplateFlow Python client 25.1.2, The NiPreps Developers
+https://github.com/templateflow/python-client
+Apache License, Version 2.0; the installed distribution's complete licence is
+retained in third-party-licenses/templateflow-apache-2.0.txt.
+
+The Lens runtime does not bundle either processing library or its binaries.
+The local pipeline calls their public APIs; it does not modify their source.
+These acknowledgements do not imply endorsement of this project.
+
+The demo video also shows the template's FreeSurfer-style segmentation
+(TemplateFlow tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz) for the
+Ventricle label; it is distributed under the same template licence.
+
+Raw patient images
+------------------
+OpenNeuro ds007036 v1.1.3 (7TEA, ALS–FTD spectrum), CC0: sub-P0006 in the
+Lens and video; sub-P0001 and sub-P0002 also appear in the demo video.
+The demonstration carries one selected region from the same scan between
+coordinate spaces; the volume change is not a longitudinal disease measure.
+
+These notices describe the listed components only. Other Lens Studio packages,
+Bitmoji assets, fonts and third-party content retain their respective terms.
