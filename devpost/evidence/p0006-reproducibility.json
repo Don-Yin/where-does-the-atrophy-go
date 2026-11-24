@@ -36,18 +36,18 @@
             234
           ]
         },
-        "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+        "source": "<project>/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
         "template_reference": {
-          "1mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
-          "2mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
+          "1mm": "<project>/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
+          "2mm": "<project>/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
         },
         "fwdtransforms": [
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
         ],
         "invtransforms": [
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
         ],
         "region": {
           "dark_fraction": 0.35,
@@ -212,18 +212,18 @@
             234
           ]
         },
-        "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+        "source": "<project>/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
         "template_reference": {
-          "1mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
-          "2mm": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
+          "1mm": "<project>/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz",
+          "2mm": "<project>/experiments/exp_001_atrophy_assets/.intermediates/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz"
         },
         "fwdtransforms": [
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1Warp.nii.gz",
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat"
         ],
         "invtransforms": [
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
-          "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-0GenericAffine.mat",
+          "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ants-1InverseWarp.nii.gz"
         ],
         "region": {
           "dark_fraction": 0.35,

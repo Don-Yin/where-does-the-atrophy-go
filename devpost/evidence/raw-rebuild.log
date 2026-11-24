@@ -1,15 +1,50 @@
 2026-11-09 09:00:57,955 INFO src.modules.register: [1/1] ds007036_sub-P0006_ses-01_T1w.nii.gz (seed=20261104 threads=1 deadline=600s)
-2026-11-09 09:00:57,961 INFO src.modules.register: ds007036_sub-P0006_ses-01 source=/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/.results/repo-prep/raw-rebuild/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz crop-z=(45, 234) template=MNI152NLin2009cAsym
+2026-11-09 09:00:57,961 INFO src.modules.register: ds007036_sub-P0006_ses-01 source=<project>/.results/repo-prep/raw-rebuild/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz crop-z=(45, 234) template=MNI152NLin2009cAsym
 Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz
-  0%|          | 0.00/13.7M [00:00<?, ?B/s]  0%|          | 52.2k/13.7M [00:00<00:40, 333kB/s]  2%|▏         | 261k/13.7M [00:00<00:14, 900kB/s]   5%|▌         | 731k/13.7M [00:00<00:05, 2.20MB/s] 11%|█         | 1.52M/13.7M [00:00<00:03, 4.05MB/s] 19%|█▉        | 2.65M/13.7M [00:00<00:01, 6.37MB/s] 28%|██▊       | 3.84M/13.7M [00:00<00:01, 8.07MB/s] 37%|███▋      | 5.02M/13.7M [00:00<00:00, 9.20MB/s] 45%|████▌     | 6.21M/13.7M [00:00<00:00, 9.99MB/s] 54%|█████▍    | 7.42M/13.7M [00:01<00:00, 10.5MB/s] 63%|██████▎   | 8.62M/13.7M [00:01<00:00, 10.9MB/s] 71%|███████▏  | 9.76M/13.7M [00:01<00:00, 11.0MB/s] 80%|████████  | 11.0M/13.7M [00:01<00:00, 11.3MB/s] 89%|████████▉ | 12.2M/13.7M [00:01<00:00, 11.4MB/s] 98%|█████████▊| 13.4M/13.7M [00:01<00:00, 11.5MB/s]100%|██████████| 13.7M/13.7M [00:01<00:00, 8.74MB/s]
+
+  0%|          | 0.00/13.7M [00:00<?, ?B/s]
+  0%|          | 52.2k/13.7M [00:00<00:40, 333kB/s]
+  2%|▏         | 261k/13.7M [00:00<00:14, 900kB/s] 
+  5%|▌         | 731k/13.7M [00:00<00:05, 2.20MB/s]
+ 11%|█         | 1.52M/13.7M [00:00<00:03, 4.05MB/s]
+ 19%|█▉        | 2.65M/13.7M [00:00<00:01, 6.37MB/s]
+ 28%|██▊       | 3.84M/13.7M [00:00<00:01, 8.07MB/s]
+ 37%|███▋      | 5.02M/13.7M [00:00<00:00, 9.20MB/s]
+ 45%|████▌     | 6.21M/13.7M [00:00<00:00, 9.99MB/s]
+ 54%|█████▍    | 7.42M/13.7M [00:01<00:00, 10.5MB/s]
+ 63%|██████▎   | 8.62M/13.7M [00:01<00:00, 10.9MB/s]
+ 71%|███████▏  | 9.76M/13.7M [00:01<00:00, 11.0MB/s]
+ 80%|████████  | 11.0M/13.7M [00:01<00:00, 11.3MB/s]
+ 89%|████████▉ | 12.2M/13.7M [00:01<00:00, 11.4MB/s]
+ 98%|█████████▊| 13.4M/13.7M [00:01<00:00, 11.5MB/s]
+100%|██████████| 13.7M/13.7M [00:01<00:00, 8.74MB/s]
 Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz
-  0%|          | 0.00/1.76M [00:00<?, ?B/s]  1%|          | 17.4k/1.76M [00:00<00:22, 77.7kB/s]  6%|▌         | 100k/1.76M [00:00<00:05, 295kB/s]   11%|█         | 187k/1.76M [00:00<00:03, 395kB/s] 17%|█▋        | 292k/1.76M [00:00<00:03, 484kB/s] 22%|██▏       | 396k/1.76M [00:00<00:02, 539kB/s] 29%|██▉       | 518k/1.76M [00:01<00:02, 606kB/s] 36%|███▋      | 640k/1.76M [00:01<00:01, 652kB/s] 45%|████▌     | 797k/1.76M [00:01<00:01, 743kB/s] 54%|█████▍    | 953k/1.76M [00:01<00:00, 813kB/s] 64%|██████▍   | 1.13M/1.76M [00:01<00:00, 890kB/s] 76%|███████▌  | 1.34M/1.76M [00:01<00:00, 995kB/s] 88%|████████▊ | 1.55M/1.76M [00:02<00:00, 1.08MB/s]100%|██████████| 1.76M/1.76M [00:02<00:00, 830kB/s] 
+
+  0%|          | 0.00/1.76M [00:00<?, ?B/s]
+  1%|          | 17.4k/1.76M [00:00<00:22, 77.7kB/s]
+  6%|▌         | 100k/1.76M [00:00<00:05, 295kB/s]  
+ 11%|█         | 187k/1.76M [00:00<00:03, 395kB/s]
+ 17%|█▋        | 292k/1.76M [00:00<00:03, 484kB/s]
+ 22%|██▏       | 396k/1.76M [00:00<00:02, 539kB/s]
+ 29%|██▉       | 518k/1.76M [00:01<00:02, 606kB/s]
+ 36%|███▋      | 640k/1.76M [00:01<00:01, 652kB/s]
+ 45%|████▌     | 797k/1.76M [00:01<00:01, 743kB/s]
+ 54%|█████▍    | 953k/1.76M [00:01<00:00, 813kB/s]
+ 64%|██████▍   | 1.13M/1.76M [00:01<00:00, 890kB/s]
+ 76%|███████▌  | 1.34M/1.76M [00:01<00:00, 995kB/s]
+ 88%|████████▊ | 1.55M/1.76M [00:02<00:00, 1.08MB/s]
+100%|██████████| 1.76M/1.76M [00:02<00:00, 830kB/s] 
 Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-brain_mask.nii.gz
-  0%|          | 0.00/160k [00:00<?, ?B/s] 44%|████▎     | 69.6k/160k [00:00<00:00, 431kB/s]100%|██████████| 160k/160k [00:00<00:00, 949kB/s] 
+
+  0%|          | 0.00/160k [00:00<?, ?B/s]
+ 44%|████▎     | 69.6k/160k [00:00<00:00, 431kB/s]
+100%|██████████| 160k/160k [00:00<00:00, 949kB/s] 
 Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-brain_mask.nii.gz
-  0%|          | 0.00/29.6k [00:00<?, ?B/s]100%|██████████| 29.6k/29.6k [00:00<00:00, 361kB/s]
+
+  0%|          | 0.00/29.6k [00:00<?, ?B/s]
+100%|██████████| 29.6k/29.6k [00:00<00:00, 361kB/s]
 2026-11-09 09:01:11,661 INFO src.modules.register: ds007036_sub-P0006_ses-01 affine + SyN registration started
-antsRegistration --dimensionality 3 -r [0x7015e42088,0x7015e40c08,1] --metric mattes[0x7015e42088,0x7015e40c08,1,32,regular,0.2] --transform Affine[0.25] --convergence 2100x1200x1200x0 --smoothing-sigmas 3x2x1x0 --shrink-factors 4x2x2x1 -x [NA,NA] --metric CC[0x7015e42088,0x7015e40c08,1,4] --transform SyN[0.200000,3.000000,0.000000] --convergence [120x80x40x20,1e-7,8] --smoothing-sigmas 3x2x1x0 --shrink-factors 8x4x2x1 -u 0 -z 1 --output [/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/.results/repo-prep/raw-rebuild/work/derivatives/ds007036_sub-P0006_ses-01/ants-,0x7015e43748,0x7015e41d28] -x [0x7015e40b28,NA] --random-seed 20261104 --float 1 --write-composite-transform 0 -v 1
+antsRegistration --dimensionality 3 -r [0x7015e42088,0x7015e40c08,1] --metric mattes[0x7015e42088,0x7015e40c08,1,32,regular,0.2] --transform Affine[0.25] --convergence 2100x1200x1200x0 --smoothing-sigmas 3x2x1x0 --shrink-factors 4x2x2x1 -x [NA,NA] --metric CC[0x7015e42088,0x7015e40c08,1,4] --transform SyN[0.200000,3.000000,0.000000] --convergence [120x80x40x20,1e-7,8] --smoothing-sigmas 3x2x1x0 --shrink-factors 8x4x2x1 -u 0 -z 1 --output [<project>/.results/repo-prep/raw-rebuild/work/derivatives/ds007036_sub-P0006_ses-01/ants-,0x7015e43748,0x7015e41d28] -x [0x7015e40b28,NA] --random-seed 20261104 --float 1 --write-composite-transform 0 -v 1
 All_Command_lines_OK
 Using single precision for computations.
 =============================================================================
@@ -686,92 +721,92 @@ XXDIAGNOSTIC,Iteration,metricValue,convergenceValue,ITERATION_TIME_INDEX,SINCE_L
 
 Total elapsed time: 217.5
 2026-11-09 09:04:50,073 INFO src.modules.register: ds007036_sub-P0006_ses-01 registration finished in 218.410 s; warping brain mask, T1, coordinates and ROI
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/register.py:53: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/register.py:53: RuntimeWarning: divide by zero encountered in matmul
   xyz = (affine[:3, :3] @ ijk + affine[:3, 3:]).T.reshape(*image.shape, 3).astype(np.float32)
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/register.py:53: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/register.py:53: RuntimeWarning: overflow encountered in matmul
   xyz = (affine[:3, :3] @ ijk + affine[:3, 3:]).T.reshape(*image.shape, 3).astype(np.float32)
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/register.py:53: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/register.py:53: RuntimeWarning: invalid value encountered in matmul
   xyz = (affine[:3, :3] @ ijk + affine[:3, 3:]).T.reshape(*image.shape, 3).astype(np.float32)
 2026-11-09 09:05:07,387 INFO src.modules.register: ds007036_sub-P0006_ses-01 done: 24.067865 -> 7.517000 mL in 249.425 s
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: divide by zero encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: overflow encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: invalid value encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: divide by zero encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: overflow encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:147: RuntimeWarning: invalid value encountered in matmul
   brain.points = (np.asarray(img.affine) @ np.c_[brain.points, np.ones(brain.n_points)].T)[:3].T
 2026-11-09 09:05:11,199 INFO src.modules.slices: [1/1] ds007036_sub-P0006_ses-01 subject z [-58.1, -44.1, -34.3, -24.7, -13.5, -3.7, 5.4]
 2026-11-09 09:05:11,241 INFO src.modules.compare: [1/1] {"scan": "ds007036_sub-P0006_ses-01", "subject_ml": 24.1, "mni_ml": 7.5, "subject_ml_exact": 24.06786456999029, "mni_ml_exact": 7.517, "kept": 0.3123, "difference_ml": 16.6}
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
+<project>/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
 `PolyData.extract_surface` will change in the future. It currently defaults to
 `'dataset_surface'`, but will change to `None`. Explicitly set the `algorithm` keyword to
 silence this warning.
   mesh = grid.contour([0.5], scalars="v").connectivity("largest").extract_surface().triangulate().smooth(n_iter=smooth[0])
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-2026-11-09 09:05:15,499 INFO src.modules.lens_assets: /Users/dy323/system-macos/active-work/projects/ar-specs-challenge/.results/repo-prep/raw-rebuild/work/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz gyri threshold=628 triangles=89999
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
+2026-11-09 09:05:15,499 INFO src.modules.lens_assets: <project>/.results/repo-prep/raw-rebuild/work/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz gyri threshold=628 triangles=89999
+<project>/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
 `PolyData.extract_surface` will change in the future. It currently defaults to
 `'dataset_surface'`, but will change to `None`. Explicitly set the `algorithm` keyword to
 silence this warning.
   mesh = grid.contour([0.5], scalars="v").connectivity("largest").extract_surface().triangulate().smooth(n_iter=smooth[0])
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
+<project>/lens/pipeline/src/modules/lens_assets.py:42: PyVistaFutureWarning: The default value of `algorithm` for the filter
 `PolyData.extract_surface` will change in the future. It currently defaults to
 `'dataset_surface'`, but will change to `None`. Explicitly set the `algorithm` keyword to
 silence this warning.
   mesh = grid.contour([0.5], scalars="v").connectivity("largest").extract_surface().triangulate().smooth(n_iter=smooth[0])
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: divide by zero encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: overflow encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/lens_assets.py:43: RuntimeWarning: invalid value encountered in matmul
   mesh.points = (affine @ np.c_[mesh.points, np.ones(mesh.n_points)].T)[:3].T
-2026-11-09 09:05:22,785 INFO src.modules.lens_assets: /Users/dy323/system-macos/active-work/projects/ar-specs-challenge/.results/repo-prep/raw-rebuild/work/derivatives/template-brain.nii.gz gyri threshold=5539 triangles=90000
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
+2026-11-09 09:05:22,785 INFO src.modules.lens_assets: <project>/.results/repo-prep/raw-rebuild/work/derivatives/template-brain.nii.gz gyri threshold=5539 triangles=90000
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: divide by zero encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: overflow encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:33: RuntimeWarning: invalid value encountered in matmul
   vox = np.linalg.inv(np.asarray(img.affine)) @ np.c_[world.reshape(-1, 3), np.ones(world[..., 0].size)].T
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: divide by zero encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: divide by zero encountered in matmul
   world_z = (affine[2, :3] @ foreground.T) + affine[2, 3]
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: overflow encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: overflow encountered in matmul
   world_z = (affine[2, :3] @ foreground.T) + affine[2, 3]
-/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: invalid value encountered in matmul
+<project>/lens/pipeline/src/modules/slices.py:108: RuntimeWarning: invalid value encountered in matmul
   world_z = (affine[2, :3] @ foreground.T) + affine[2, 3]
 2026-11-09 09:05:28,318 INFO src.modules.lens_assets: exported ds007036_sub-P0006_ses-01: {'subject': 24.1, 'mni': 7.5}; key slices {'subject': {'world_z_mm': -16.0, 'area_mm2': 1188}, 'common': {'world_z_mm': 19.0, 'area_mm2': 728}}
-2026-11-09 09:05:28,958 INFO src.utils.profiling: wrote profile to /Users/dy323/system-macos/active-work/projects/ar-specs-challenge/.results/repo-prep/raw-rebuild/results/profile/run.html
+2026-11-09 09:05:28,958 INFO src.utils.profiling: wrote profile to <project>/.results/repo-prep/raw-rebuild/results/profile/run.html
 2026-11-09 09:05:28,958 INFO src.utils.profiling: run resources: wall=272.90s cpu=266.38s (user=262.13s sys=4.25s) peak_rss_self=4367.2MiB peak_rss_children=4.2MiB

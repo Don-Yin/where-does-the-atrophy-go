@@ -4,14 +4,14 @@
 Where Does the Atrophy Go?
 
 ## Tagline
-Drag a real brain through a spatial warp, compare its slices and lift an inspection copy in Lens Studio Preview.
+Pinch, then drag a brain scan into alignment and see why the same region reads 24.1 mL in one space and 7.5 mL in the other.
 
 ## Demonstration
-Lens Studio Interactive Preview, with mouse-driven interaction.
+Lens Studio Preview with scripted simulated-hand input, not Spectacles hardware.
 
 ## Links
-- Public source repository: [PUBLIC_REPOSITORY_URL]
-- Public YouTube demo: [PUBLIC_YOUTUBE_URL]
+- Source repository: https://github.com/Don-Yin/where-does-the-atrophy-go
+- YouTube demo: https://youtu.be/C-fxrHdHAcM
 - Devpost project page: [DEVPOST_PROJECT_URL]
 
 ## Description

@@ -9,6 +9,13 @@
     "subject": 24.06786456999029,
     "mni": 7.517
   },
+  "weighted_volume": {
+    "mask_voxels": 7517,
+    "voxel_mm3": 1.0,
+    "weighted_mm3": 23562.830890774727,
+    "jacobian_weighted_ml": 23.562830890774727,
+    "resampling_difference_percent": 2.098373446247826
+  },
   "mni_z_mm": [
     -34,
     -20,

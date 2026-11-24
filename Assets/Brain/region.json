@@ -32,7 +32,7 @@
   ]
  },
  "template": "MNI152NLin2009cAsym",
- "raw_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+ "raw_source": "<project>/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
  "ventricle_ml": {
   "subject": 24.1,
   "mni": 7.5
@@ -61,7 +61,7 @@
  ],
  "slice_orientation": {
   "subject": {
-   "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
+   "source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
    "source_axis_codes": [
     "R",
     "A",
@@ -108,7 +108,7 @@
    ]
   },
   "common": {
-   "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
+   "source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
    "source_axis_codes": [
     "R",
     "A",
@@ -160,9 +160,9 @@
    "world_z_mm": -16.0,
    "coordinate_space": "subject scanner world",
    "area_mm2": 1188,
-   "mask_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles.nii.gz",
+   "mask_source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles.nii.gz",
    "orientation": {
-    "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
+    "source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain.nii.gz",
     "source_axis_codes": [
      "R",
      "A",
@@ -374,9 +374,9 @@
    "world_z_mm": 19.0,
    "coordinate_space": "MNI",
    "area_mm2": 728,
-   "mask_source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles_mni.nii.gz",
+   "mask_source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/ventricles_mni.nii.gz",
    "orientation": {
-    "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
+    "source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_brain_mni.nii.gz",
     "source_axis_codes": [
      "R",
      "A",
@@ -636,7 +636,7 @@
   ]
  },
  "warp_jacobian": {
-  "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_to_mni_jac.nii.gz",
+  "source": "<project>/experiments/exp_001_atrophy_assets/.intermediates/derivatives/ds007036_sub-P0006_ses-01/t1_to_mni_jac.nii.gz",
   "units": "patient volume per template volume",
   "transform": "full affine+SyN geometric pullback Jacobian",
   "colour": "RdBu_r",

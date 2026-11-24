@@ -7,7 +7,7 @@
   "scans": [
     {
       "scan": "ds007036_sub-P0001_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0001_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0001_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 6.669004961533456,
@@ -62,7 +62,7 @@
     },
     {
       "scan": "ds007036_sub-P0002_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0002_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0002_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 0.04504156841916425,
@@ -117,7 +117,7 @@
     },
     {
       "scan": "ds007036_sub-P0006_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0006_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 24.06786456999029,
@@ -172,7 +172,7 @@
     },
     {
       "scan": "ds007036_sub-P0007_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0007_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0007_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 5.641745600751673,
@@ -227,7 +227,7 @@
     },
     {
       "scan": "ds007036_sub-P0009_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0009_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0009_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 9.597388261794224,
@@ -282,7 +282,7 @@
     },
     {
       "scan": "ds007036_sub-P0013_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007036_sub-P0013_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007036_sub-P0013_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 25.076289232572158,
@@ -337,7 +337,7 @@
     },
     {
       "scan": "ds007561_sub-03_ses-01",
-      "source": "/Users/dy323/system-macos/active-work/projects/ar-specs-challenge/data/raw/ds007561_sub-03_ses-01_T1w.nii.gz",
+      "source": "<project>/data/raw/ds007561_sub-03_ses-01_T1w.nii.gz",
       "raw_crop_intensities_exact": true,
       "mask_ml": {
         "subject": 69.217,

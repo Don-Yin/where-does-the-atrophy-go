@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-09T20:36:05.828Z",
+  "scope": "Local review assets only. No Lens Studio, generation, upload, or publication.",
+  "visual_review": "All seven final images viewed at export resolution; captions, privacy crops, zoom geometry and footer notes checked.",
+  "crop_checks": [
+    {
+      "asset": "three-brains-table",
+      "crop_xywh": [
+        570,
+        360,
+        840,
+        380
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "three-brains-row",
+      "crop_xywh": [
+        570,
+        510,
+        840,
+        230
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "three-brains-and-slices",
+      "crop_xywh": [
+        570,
+        70,
+        840,
+        670
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "drag-before",
+      "crop_xywh": [
+        620,
+        120,
+        716,
+        620
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "drag-during",
+      "crop_xywh": [
+        620,
+        120,
+        716,
+        620
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "inspection-table",
+      "crop_xywh": [
+        570,
+        360,
+        840,
+        380
+      ],
+      "lower_edge": 740,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "paired-slice-detail",
+      "crop_xywh": [
+        880,
+        363,
+        220,
+        220
+      ],
+      "lower_edge": 583,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "warp-colour-detail",
+      "crop_xywh": [
+        1228,
+        507,
+        182,
+        182
+      ],
+      "lower_edge": 689,
+      "identifier_cards_excluded": true
+    },
+    {
+      "asset": "inspection-detail",
+      "crop_xywh": [
+        874,
+        465,
+        229,
+        229
+      ],
+      "lower_edge": 694,
+      "identifier_cards_excluded": true
+    }
+  ],
+  "products": [
+    {
+      "file": "devpost-thumbnail.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 328594,
+      "sha256": "0c2d6f487022e701f5347d721138ac5ebf3091892d7f962d545b84f4e6205fa5",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "01-three-brains.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 334340,
+      "sha256": "b541bf0a762ae807eaf237c51e9e17ab127b786a4d58b5dd0137ba9272a9987d",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "02-drag-the-brain.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 416171,
+      "sha256": "bb593baf2c3b11b1fe68509b79076d65a7302e10aa226fd7c26751f0ffd0a24b",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "03-paired-slices.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 365542,
+      "sha256": "da919e703f466fd6c04322b004a87f62baab71c85e9b7ac3917785c1a53eaf70",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "04-warp-colours.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 344600,
+      "sha256": "167cd19fa52c2afbc825cbbe5347e092a54c74bce22077ef3187d24cc2e7097d",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "05-inspection-copy.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 355587,
+      "sha256": "7af168d7f9c22e9e1f12f311f96030f81f2a4224bb0486b65df44d8f46d46d16",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    },
+    {
+      "file": "youtube-thumbnail.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 155755,
+      "sha256": "79e02d88ff890fba21fa90fe6e20762a117caa1db354425faca8b6eaffe848a5",
+      "dimensions_exact": true,
+      "under_5_mb_decimal": true,
+      "forbidden_text_hits": [],
+      "disclosures_detected_by_ocr": true
+    }
+  ],
+  "caveat": "OCR is a supplemental check. The exact crop boundaries and visual review are the primary evidence for privacy."
+}

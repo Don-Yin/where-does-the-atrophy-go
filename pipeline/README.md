@@ -1,6 +1,6 @@
 # Rebuild the medical assets from raw data
 
-This is the repository-local copy of the number/asset producer used for the Lens. It starts with an original OpenNeuro NIfTI image, computes a new affine + SyN registration, re-selects the same image-and-warp-conditioned fluid region, measures the two voxel masks and writes `Assets/Brain/region.json` plus the meshes and textures. **No saved transform, parent checkout, `/tmp` file, FSL installation or atlas is needed.** Registration is offline, not a Lens runtime feature.
+This is the repository-local copy of the number/asset producer used for the Lens. It starts with an original OpenNeuro NIfTI image, computes a new affine + SyN registration, re-selects the same image-and-warp-conditioned fluid region, measures both voxel masks and the Jacobian-weighted common mask, and writes a weighted results table plus `Assets/Brain/region.json`, meshes and textures. **No saved transform, parent checkout, `/tmp` file, FSL installation or atlas is needed.** Registration is offline, not a Lens runtime feature.
 
 ## Environment and one-command rebuild
 
@@ -13,16 +13,16 @@ micromamba env create -f pipeline/environment.yml
 # Fetch the original scan, checking both its size and snapshot SHA-256:
 micromamba run -n ants-reg python pipeline/fetch_raw.py
 
-# Register from raw, prepare slices, measure masks and export all Lens assets:
+# Register from raw, prepare slices, measure/weight masks and export all Lens assets:
 micromamba run -n ants-reg python pipeline/run.py \
   --only-scan ds007036_sub-P0006_ses-01 \
   --scan ds007036_sub-P0006_ses-01 --resources
 
-# Compare exact numbers and all key-slice areas with the included reference metadata:
+# Compare exact mask volumes, the weighted sum and key-slice areas with the fixed reference:
 micromamba run -n ants-reg python pipeline/verify.py
 ```
 
-The verifier reads the fixed `pipeline/reference-measurements.json`, not the just-written output as its own reference. The default export overwrites `Assets/Brain/`; close Lens Studio before regenerating assets. `environment.yml` pins ANTsPy 0.6.3, TemplateFlow 25.1.2 and the image/mesh libraries on Python 3.11. Reproducibility was checked on the same Mac and environment, not asserted bitwise across platforms. A scan has a **600-second hard deadline**; an unexpectedly slow machine will fail rather than silently change settings.
+The verifier reads the fixed `pipeline/reference-measurements.json`, not the just-written output as its own reference. It also reads `pipeline/.results/tables/weighted-volume.json` (override with `--weighted PATH`), verifies its scan, template and registration against the exported assets, and checks its endpoint and weighted measurements. The default export overwrites `Assets/Brain/`; close Lens Studio before regenerating assets. `environment.yml` pins ANTsPy 0.6.3, TemplateFlow 25.1.2 and the image/mesh libraries on Python 3.11. Reproducibility was checked on the same Mac and environment, not asserted bitwise across platforms. A scan has a **600-second hard deadline**; an unexpectedly slow machine will fail rather than silently change settings.
 
 For optional editor type checking, `pyrightconfig.json` expects a local, ignored `.venv` link to the installed environment. From the repository root:
 
@@ -48,7 +48,8 @@ If you already downloaded the dataset, copy this one original BIDS file to the l
 2. Run ANTsPy affine + SyN against TemplateFlow `MNI152NLin2009cAsym` / ICBM152 2009c, with the 2 mm registration reference and 1 mm output grid. Full parameters are in `src/modules/register.py`; seed **20261104** and **one ITK thread** are set before ANTs is imported.
 3. Select the largest binary-opened dark-fluid component where the smoothed forward volume-change factor is below 0.5. The dark threshold is 0.35 times the deep-brain 75th-percentile intensity; coordinate fields use sigma=2-voxel smoothing. This is a transform-conditioned pocket, **not a complete ventricle segmentation**.
 4. Carry its mask into MNI with nearest-neighbour resampling. Volume is the mask voxel sum times the absolute affine determinant, divided by 1000 to convert cubic millimetres to millilitres. The expected exact values are **24.06786456999029 / 7.517 mL**, rounded only for display to **24.1 / 7.5 mL**.
-5. Export neutral cortex, the coral region with an `mni` morph target, common-space Jacobian colours, slice grids/outlines and the default key-slice pair. Colours use the full affine+SyN pullback Jacobian, `dV_subject / dV_MNI`. Mask volumes are not calculated from the smoothed meshes or clipped colours.
+5. Sum the full affine+SyN pullback Jacobian, `dV_subject / dV_MNI`, over the common-space binary mask and multiply by the actual voxel volume. The result is **23.562830890774727 mL**, displayed as **23.6 mL** (`.results/tables/weighted-volume.json` → `volumes_ml.jacobian_weighted`, `display_ml.jacobian_weighted`). It is **2.098373446247826% below** the native measurement (same file → `resampling_difference_percent`): approximate recovery after nearest-neighbour resampling and discretisation, not exact equality. The sum uses unclipped weights; incompatible grids or invalid weights inside the mask fail explicitly.
+6. Export neutral cortex, the coral region with an `mni` morph target, common-space Jacobian colours, slice grids/outlines and the default key-slice pair. Colours use the same full pullback Jacobian. Mask volumes are not calculated from the smoothed meshes or clipped colours.
 
 The seven requested MNI levels come from `axial-slices.json`, a portable export of the shared `reader-facing-mni-z-seven-v1` recipe. Each image resolves world coordinates using its own affine. Native cuts are representative scanner-world cuts linked by this scan's warp, not native-space MNI coordinates. The two default key slices are selected independently as the largest ROI cross-section in each space; they are not a single material plane followed through the warp.
 
@@ -60,11 +61,11 @@ Folders, all relative to this directory:
 | `.intermediates/derivatives/<scan>/` | Newly estimated affine/forward/inverse warps, coordinate fields, masks, `source.txt`, `registration.json` (ignored) |
 | `.intermediates/templateflow/` | TemplateFlow-owned reference cache (ignored) |
 | `.intermediates/derivatives/slices/` | Slice-level manifest and diagnostic images (ignored) |
-| `.results/tables/` | Exact mask comparison table (ignored) |
+| `.results/tables/` | Exact mask comparison and selected-scan `weighted-volume.json` (ignored) |
 | `.results/profile/` | Default-on Pyinstrument HTML; `--no-profile` is the explicit opt-out (ignored) |
 | `../Assets/Brain/` | Default public asset output, including `region.json` |
 
-The four steps can also be selected with `--steps register slices compare assets`. Resumption requires the same recorded raw path, **raw checksum**, full configuration and every required derivative. To force an independent reconstruction, use a new work directory, rather than copying old transforms.
+The five steps can also be selected with `--steps register slices compare weighted assets`. Once registration exists, `--steps weighted` recomputes only the correction and never writes to Lens assets. `--scan` selects the scan for weighting and asset export; `--only-scan` limits registration, slices and comparison. The selected weighted result replaces `.results/tables/weighted-volume.json`; its `inputs`, `registration` and `jacobian_convention` fields identify its provenance. Resumption requires the same recorded raw path, **raw checksum**, full configuration and every required derivative. To force an independent reconstruction, use a new work directory, rather than copying old transforms.
 
 ## Rebuild without changing the included Lens assets
 
@@ -77,6 +78,15 @@ micromamba run -n ants-reg python pipeline/verify.py
 ```
 
 Other explicit overrides are `ATROPHY_RAW_DIR`, `ATROPHY_RESULTS_DIR` and `TEMPLATEFLOW_HOME`; use absolute paths. Defaults never refer to a parent project. Do not point a fresh registration at an old derivative directory whose recorded source has changed; the producer intentionally refuses that replacement.
+
+## Focused regression checks
+
+```bash
+cd pipeline
+micromamba run -n ants-reg python -m unittest discover -s tests -v
+```
+
+The tests exercise unclipped weights, physical affine determinants, storage orientation, invalid grids/masks/weights, the selected pipeline output, fixed-reference verification, default profiling, `--no-profile`, and nonzero failure propagation.
 
 ## Scientific and licence boundaries
 
