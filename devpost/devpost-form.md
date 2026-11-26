@@ -12,7 +12,7 @@ Lens Studio Preview with scripted simulated-hand input, not Spectacles hardware.
 ## Links
 - Source repository: https://github.com/Don-Yin/where-does-the-atrophy-go
 - YouTube demo: https://youtu.be/C-fxrHdHAcM
-- Devpost project page: [DEVPOST_PROJECT_URL]
+- Devpost project page: https://devpost.com/software/where-does-the-atrophy-go
 
 ## Description
 Use the text in `devpost-description.md`.
